@@ -1,0 +1,256 @@
+{
+    "title":"Meet Us",
+    "url_title":"meet-us",
+    "description":"SEO Page Summary for Meet Us",
+    "keywords":"SEO Keywords for Meet Us Page",
+    "entry_id":"4406",
+    "entry_date":"2015 03 07 - 1:28:34",
+    "edit_date":"2016 03 11 - 8:29:35",
+    "content_blocks":[
+        {
+            "content_block_type":"standard_block",
+            "color":"black",
+            "alignment":"center",
+            "standard_block":{
+                "headline":"Meet Us",
+                "sub_headline":"",
+                "body":""
+            }
+        },
+        {
+            "content_block_type":"timeline",
+            "timeline":{
+                "timeline":{
+                    "headline":"Our Story ",
+                    "type":"default",
+                    "text":"I don’t know about you, but I really, can’t read long paragraphs about companies on their websites. I zone within a minute or two, and I guess I get to know them by their font, layout, and color of their website. So rather than bore you, I thought it best to just give a brief timeline of us, and let you look elsewhere for a good novel to read.",
+                    "asset":{
+                        "media":"",
+                        "thumbnail":"",
+                        "credit":"",
+                        "caption":""
+                    },
+                    "startDate":"1969",
+                    "date":[
+                        {
+                            "startDate":"1977",
+                            "endDate":"",
+                            "headline":"",
+                            "text":"Dan and Judy opened our doors in Valley Forge, Pennsylvania in May 1977.  They had a 2 year old son (that’s me, Mikey Dobin) a 4 year old daughter (Danielle) and a 6 year old daughter (Diana).  My sisters were, and still are, much smarter than me.",
+                            "asset":{
+                                "media":"http://c67bfc7c934596c5d2de-384a0fe271c727cec0e8a9b32788243a.r54.cf1.rackcdn.com/Timeline/Timeline-Dan_Judy-680x480.jpg",
+                                "thumbnail":"",
+                                "credit":"",
+                                "caption":""
+                            }
+                        },
+                        {
+                            "startDate":"1978",
+                            "endDate":"",
+                            "headline":"",
+                            "text":"Valley Forge relocated to New York City, and we lived about an hour (without traffic) north of the city. Their commute must have been awesome. Dan and Judy had 2 more daughters (I am the middle child with 4 sisters), and essentially, they were the uber-entrepreneurs that never slept – good thing they picked NYC as their home-base.",
+                            "asset":{
+                                "media":"http://c67bfc7c934596c5d2de-384a0fe271c727cec0e8a9b32788243a.r54.cf1.rackcdn.com/Timeline/Timeline-NY_city-680x480.jpg",
+                                "thumbnail":"http://c67bfc7c934596c5d2de-384a0fe271c727cec0e8a9b32788243a.r54.cf1.rackcdn.com/5505_new_york.jpg",
+                                "credit":"",
+                                "caption":""
+                            }
+                        },
+                        {
+                            "startDate":"1980",
+                            "endDate":"",
+                            "headline":"",
+                            "text":"Dan and Judy were approached by a few hotels to purchase some of the velvet products that they sold for movie theaters.  They happily agreed, and our company dove head first into hospitality.  Hospitality quickly became the main business for Valley Forge, and within a decade, it was our only business.",
+                            "asset":{
+                                "media":"http://c67bfc7c934596c5d2de-384a0fe271c727cec0e8a9b32788243a.r54.cf1.rackcdn.com/Timeline/Timeline-Curtain-680x480.jpg",
+                                "thumbnail":"http://c67bfc7c934596c5d2de-384a0fe271c727cec0e8a9b32788243a.r54.cf1.rackcdn.com/5505_Curtain.jpg",
+                                "credit":"",
+                                "caption":""
+                            }
+                        },
+                        {
+                            "startDate":"1991",
+                            "endDate":"",
+                            "headline":"",
+                            "text":"Valley Forge launched its first running line fabric collections, and our initial launch was to make 50 sample books, and send them to the top 50 companies that would select fabrics for hotels. I am sure some of them just threw them out, but someone, somewhere used them. These books are now in a museum that we also call a storage closet that we have yet to purge. running for office.",
+                            "asset":{
+                                "media":"http://c67bfc7c934596c5d2de-384a0fe271c727cec0e8a9b32788243a.r54.cf1.rackcdn.com/Timeline/Timeline-upholstry-680x480.jpg",
+                                "thumbnail":"http://c67bfc7c934596c5d2de-384a0fe271c727cec0e8a9b32788243a.r54.cf1.rackcdn.com/5505_upholsrty.jpg",
+                                "credit":"",
+                                "caption":"These books, at the time, cost our company all the money we had in the world, we literally had to take a loan to create them, and they had a whooping 70 items total. You may not feel the love for these styles now, but they definitely sold at the time! "
+                            }
+                        },
+                        {
+                            "startDate":"1992",
+                            "endDate":"",
+                            "headline":"",
+                            "text":"Valley Forge moved from NYC to Fort Lauderdale, Florida. We moved a week before my senior year of High School and I never slept. Diana was in college, and she definitely did not sleep, and of course, even today, Dan and Judy still do not sleep. ",
+                            "asset":{
+                                "media":"http://c67bfc7c934596c5d2de-384a0fe271c727cec0e8a9b32788243a.r54.cf1.rackcdn.com/Timeline/Timeline-Untitled-1-680x480.jpg",
+                                "thumbnail":"http://c67bfc7c934596c5d2de-384a0fe271c727cec0e8a9b32788243a.r54.cf1.rackcdn.com/5505_ft_laud.jpg",
+                                "credit":"",
+                                "caption":""
+                            }
+                        },
+                        {
+                            "startDate":"1994",
+                            "endDate":"",
+                            "headline":"",
+                            "text":"Diana joins the business, and her dreams of saving the world through a non-profit during the week, and chilling in the mountains of Colorado on the weekend, are slightly re-routed.  She never chilled, and instead, flew to Hong Kong to open Valley Forge Fabrics in Hong Kong. Today, Diana is a Co-President with me at Valley Forge by day, and by night and weekend, she is an amazing mom of 3, wife to 1, and she sits on numerous non-profit boards, so she still follows her dreams. ",
+                            "asset":{
+                                "media":"http://c67bfc7c934596c5d2de-384a0fe271c727cec0e8a9b32788243a.r54.cf1.rackcdn.com/Timeline/Timeline-Diana-680x480.jpg",
+                                "thumbnail":"",
+                                "credit":"",
+                                "caption":""
+                            }
+                        },
+                        {
+                            "startDate":"1997",
+                            "endDate":"",
+                            "headline":"",
+                            "text":"I joined the business and moved to Singapore. I run faster now than I did in 1997, and although I have had some really juicy failures in my career, luckily, some things were successes too. Diana oversees our marketing and makes sure we only let everyone know about the successes, so I can still feel cool. She doesn't know I am writing this...",
+                            "asset":{
+                                "media":"http://c67bfc7c934596c5d2de-384a0fe271c727cec0e8a9b32788243a.r54.cf1.rackcdn.com/Timeline/Timeline-Micheal-680x480.jpg",
+                                "thumbnail":"http://c67bfc7c934596c5d2de-384a0fe271c727cec0e8a9b32788243a.r54.cf1.rackcdn.com/5505_Micheal.jpg",
+                                "credit":"",
+                                "caption":""
+                            }
+                        },
+                        {
+                            "startDate":"1997",
+                            "endDate":"1999",
+                            "headline":"",
+                            "text":"We had now graduated to a lot more running line items than just the 2 books with 70 items total from the 1991.  We launched new product categories – sheer and drapery – and our books started to look a little more sophisticated. ",
+                            "asset":{
+                                "media":"http://c67bfc7c934596c5d2de-384a0fe271c727cec0e8a9b32788243a.r54.cf1.rackcdn.com/Timeline/Timeline-old_books-680x480.jpg",
+                                "thumbnail":"http://c67bfc7c934596c5d2de-384a0fe271c727cec0e8a9b32788243a.r54.cf1.rackcdn.com/5505_Old.jpg",
+                                "credit":"",
+                                "caption":"Some of these items still sell today, and some of them never ever sold and they feel alone and unwanted. "
+                            }
+                        },
+                        {
+                            "startDate":"2000",
+                            "endDate":"",
+                            "headline":"",
+                            "text":"Millennial Year. Everyone geared up for Y2K but nothing happened. Either way, we had a great party on December 31, 1999 that led well into the morning of January 1, 2000, did you? ",
+                            "asset":{
+                                "media":"http://c67bfc7c934596c5d2de-384a0fe271c727cec0e8a9b32788243a.r54.cf1.rackcdn.com/Timeline/Timeline-new_years-680x480.jpg",
+                                "thumbnail":"http://c67bfc7c934596c5d2de-384a0fe271c727cec0e8a9b32788243a.r54.cf1.rackcdn.com/5505_new_years.jpg",
+                                "credit":"",
+                                "caption":""
+                            }
+                        },
+                        {
+                            "startDate":"2001",
+                            "endDate":"",
+                            "headline":"",
+                            "text":"Apple releases the Ipod and changes music forever. Many people do not even know what a CD or DVD is today! ",
+                            "asset":{
+                                "media":"http://c67bfc7c934596c5d2de-384a0fe271c727cec0e8a9b32788243a.r54.cf1.rackcdn.com/Timeline/Timeline-ipod-680x480.jpg",
+                                "thumbnail":"http://c67bfc7c934596c5d2de-384a0fe271c727cec0e8a9b32788243a.r54.cf1.rackcdn.com/5505_ipod.jpg",
+                                "credit":"",
+                                "caption":""
+                            }
+                        },
+                        {
+                            "startDate":"2007",
+                            "endDate":"",
+                            "headline":"",
+                            "text":"We launched our first major grouping of FRESH® products (Fabrics Redefining Environmental Standards for Hospitality). We also embarked on a journey that is now interwoven as part of our company's DNA- Being a sustainable steward while being the largest supplier of decorative fabrics for the hospitality industry.   ",
+                            "asset":{
+                                "media":"http://c67bfc7c934596c5d2de-384a0fe271c727cec0e8a9b32788243a.r54.cf1.rackcdn.com/Timeline/Timeline-Fresh-680x480.jpg",
+                                "thumbnail":"",
+                                "credit":"",
+                                "caption":"Sweet, amazing, beautiful, and 1,000 choices. to us this was huge-1,000+ choices! "
+                            }
+                        },
+                        {
+                            "startDate":"2010",
+                            "endDate":"",
+                            "headline":"",
+                            "text":"This year was totally not fun sales-wise, but was amazing in so many other ways. Our ICON, Judy Dobin, became ICON of our Industry taking home the prestigious award from NEWH. Valley Forge was awarded by The American Society of Interior Designers the Earth-Minded Award in the Product category for a contribution to advancing sustainable design in the hospitality industry with our Tencel+Plus™ Lyocell Eucalyptus bedding collection.",
+                            "asset":{
+                                "media":"http://c67bfc7c934596c5d2de-384a0fe271c727cec0e8a9b32788243a.r54.cf1.rackcdn.com/Timeline/Timeline-Company-2015-680x480.jpg",
+                                "thumbnail":"http://c67bfc7c934596c5d2de-384a0fe271c727cec0e8a9b32788243a.r54.cf1.rackcdn.com/5505_comapny_2015.jpg",
+                                "credit":"",
+                                "caption":""
+                            }
+                        },
+                        {
+                            "startDate":"2011",
+                            "endDate":"",
+                            "headline":"",
+                            "text":"So happy to be out of 2010 in terms of sales, and we jumped into 2011 with a huge bang. We were lucky enough to be awarded our first 2 major bedding brand standard roll-out programs, and we still cannot believe that there are luxury brands out there that work with us to supply their unbelievable properties. 2011 also brought the company a change in leadership as Diana and myself, who were 6 years old and 2 years old way back in 1977 when our parents started the company, were named Co-Presidents of Valley Forge Fabrics, Inc. Our parents remain involved in the operation of the company, but have turned over the 'heavy lifting' to Diana and myself.",
+                            "asset":{
+                                "media":"http://c67bfc7c934596c5d2de-384a0fe271c727cec0e8a9b32788243a.r54.cf1.rackcdn.com/Timeline/Timeline-Diana_Mikey-680x480.jpg",
+                                "thumbnail":"",
+                                "credit":"",
+                                "caption":"When we were kids, we used to play in the rolls of fabric-it was easier to fit back then, but we still play with rolls of fabric everyday."
+                            }
+                        },
+                        {
+                            "startDate":"2015",
+                            "endDate":"",
+                            "headline":"",
+                            "text":"In 2015, another exciting new product category for Valley Forge was introduced: a decorative flame resistant hospitality roller shade collection that gives you limitless possibilities. The High Roller™ collection made designing and specifying roller shades easier than ever before! First available in a variety of textures and opacities, the High Roller™ program now incorporates custom and printed roller shade fabrics to accommodate any design or room.",
+                            "asset":{
+                                "media":"http://c67bfc7c934596c5d2de-384a0fe271c727cec0e8a9b32788243a.r54.cf1.rackcdn.com/5771_Timeline-2015_05_02-Rollershade.jpg",
+                                "thumbnail":"",
+                                "credit":"",
+                                "caption":""
+                            }
+                        },
+                        {
+                            "startDate":"2015",
+                            "endDate":"",
+                            "headline":"",
+                            "text":"This was a year of great transformation for the Valley Forge family as we introduced printed fabrics. <br><br>Our partnership with WeaveUp technology provided our customers with constant new options, control over customization and color, and fast samples within 3 days or less; all while celebrating and protecting the talents of independent artists. <br><br>The creative collaboration between artists and our customers brings to the hospitality industry a revolution in textile customization within the cocoon of performance-based expectations.",
+                            "asset":{
+                                "media":"http://c67bfc7c934596c5d2de-384a0fe271c727cec0e8a9b32788243a.r54.cf1.rackcdn.com/576d_Timeline-Dual-Image-2015_06_24-Huesteria.jpg",
+                                "thumbnail":"http://c67bfc7c934596c5d2de-384a0fe271c727cec0e8a9b32788243a.r54.cf1.rackcdn.com/576d_Timeline-Dual-Image-2015_06_24-Huesteria.jpg",
+                                "credit":"",
+                                "caption":"Choices! Choices! Choices!"
+                            }
+                        },
+                        {
+                            "startDate":"2015",
+                            "endDate":"",
+                            "headline":"",
+                            "text":"We moved our headquarters into a state-of-the-art LEED Certified building in Fort Lauderdale that celebrates our core values of collaboration, creativity, empowerment, leadership, resolve, clarity, passion and fun.  Exciting times! <br><br>We are healthier too – we have exercise classes during lunch and in the evenings in our 2nd floor lifestyle space that also boasts an indoor soccer court, game room and slide. We may be gaining experience with time but we look younger and more physically fit than ever!",
+                            "asset":{
+                                "media":"http://c67bfc7c934596c5d2de-384a0fe271c727cec0e8a9b32788243a.r54.cf1.rackcdn.com/576d_Timeline-Dual-Image-2016_06_24-Yoga.jpg",
+                                "thumbnail":"http://c67bfc7c934596c5d2de-384a0fe271c727cec0e8a9b32788243a.r54.cf1.rackcdn.com/576d_Timeline-Dual-Image-2016_06_24-Yoga.jpg",
+                                "credit":"",
+                                "caption":"We have a new Home & a Healthy Lifestyle"
+                            }
+                        },
+                        {
+                            "startDate":"2016",
+                            "endDate":"",
+                            "headline":"",
+                            "text":"This year we are prioritizing technology, efficiency and customer experience. We now use RFID technology throughout our sample rooms and our warehouses has enabled us to sprint faster and meet even more critical customer deadlines.  We have also digitized our internal library and the result is the single largest performance textile archive in the world. From our humble beginnings of only 3 different types of velvet to over 1 million different products, our archive boasts over 100,000 unique patterns collected throughout our history! ",
+                            "asset":{
+                                "media":"http://c67bfc7c934596c5d2de-384a0fe271c727cec0e8a9b32788243a.r54.cf1.rackcdn.com/576d_Timeline-Dual-Image-2015_06_24-Blanket_Room.jpg",
+                                "thumbnail":"http://c67bfc7c934596c5d2de-384a0fe271c727cec0e8a9b32788243a.r54.cf1.rackcdn.com/576d_Timeline-Dual-Image-2015_06_24-Blanket_Room.jpg",
+                                "credit":"",
+                                "caption":"Changing the world one yard at a time; faster."
+                            }
+                        },
+                        {
+                            "startDate":"2017",
+                            "endDate":"",
+                            "headline":"",
+                            "text":"In 2017, we are focused on developing the personal and professional goals of our Valley Forge Family, in order to better support and engage our customers and friends, as we launch new products and enter new product categories. Expanding our reputation as the Trusted Source in hospitality is our priority. This year we are also dedicated to increasing our give back strategy as an organization, and providing funds and time to make the world a better place. Our passion for health, the environment and the care of others is an opportunity for us to work together as a team and with our industry to be great citizens of the world.",
+                            "asset":{
+                                "media":"http://c67bfc7c934596c5d2de-384a0fe271c727cec0e8a9b32788243a.r54.cf1.rackcdn.com/58db_feeding-south-florida-timeline.jpg",
+                                "thumbnail":"http://c67bfc7c934596c5d2de-384a0fe271c727cec0e8a9b32788243a.r54.cf1.rackcdn.com/58db_feeding-south-florida-timeline.jpg",
+                                "credit":"",
+                                "caption":""
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

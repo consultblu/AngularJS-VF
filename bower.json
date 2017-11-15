@@ -1,0 +1,27 @@
+{
+  "name": "valleyforge",
+  "description": "Test App",
+  "main": "index.html",
+  "authors": [
+    "Carlo Smith"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "none"
+  ],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-tags": "^0.2.10"
+  },
+  "devDependencies": {
+    "angular-dialog-service": "5.2.8"
+  }
+}

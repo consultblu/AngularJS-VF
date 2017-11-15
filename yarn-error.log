@@ -1,0 +1,68 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Carlo\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js install
+
+PATH: 
+  C:\tools\ruby24\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\PuTTY\;C:\Program Files (x86)\WinMerge;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\dotnet\;C:\ProgramData\chocolatey\bin;C:\Program Files\MariaDB 10.2\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\nodejs\;C:\Program Files\PuTTY\;C:\HashiCorp\Vagrant\bin;C:\TDM-GCC-64\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Brackets\command;C:\Program Files (x86)\Microsoft VS Code\bin;C:\MAMP\bin\mysql\bin;C:\MAMP\bin\php\php5.6.28;C:\Users\Carlo\AppData\Local\Microsoft\WindowsApps;C:\Users\Carlo\AppData\Local\learn_ide_3\bin;C:\Users\Carlo\AppData\Roaming\npm;C:\MAMP\bin\zend\ZendFramework-1.12.20\bin;C:\Users\Carlo\AppData\Local\GitHubDesktop\bin
+
+Yarn version: 
+  1.3.2
+
+Node version: 
+  9.1.0
+
+Platform: 
+  win32 x64
+
+npm manifest: 
+  {
+    "name": "valleyforge",
+    "version": "1.0.0",
+    "description": "Test App",
+    "main": "index.html",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Carlo Smith",
+    "license": "ISC",
+    "devDependencies": {
+      "angular": "1.3.13",
+      "angular-animate": "1.3.13",
+      "angular-aria": "1.3.13",
+      "angular-cookies": "1.3.13",
+      "angular-dialog-service": "5.0.0",
+      "angular-fontawesome": "1.0.0",
+      "angular-markdown-directive": "0.3.1",
+      "angular-messages": "1.3.13",
+      "angular-route": "1.3.13",
+      "angular-sanitize": "1.3.13",
+      "angular-scroll": "1.0.2",
+      "angular-tags": "0.0.1",
+      "angular-ui-bootstrap": "0.11.0",
+      "angular-ui-router": "0.4.3",
+      "angular-ui-select": "0.12.10",
+      "angular-ui-slider": "0.4.0",
+      "angular-utils-disqus": "1.0.1",
+      "angular-youtube-embed": "1.1.0",
+      "bower": "^1.8.2",
+      "gulp": "^3.9.1",
+      "gulp-clean-css": "3.9.0",
+      "gulp-concat": "2.6.1",
+      "gulp-csslint": "1.0.0",
+      "gulp-livereload": "3.8.1",
+      "gulp-ng-annotate": "2.0.0",
+      "gulp-sass": "3.1.0",
+      "gulp-uglify": "3.0.0",
+      "jquery": "2.1.3",
+      "ng-tags-input": "2.3.0"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: EBUSY: resource busy or locked, rmdir 'D:\my_git_repo\valleyforge\node_modules\angular-animate.DELETE'

@@ -1,0 +1,516 @@
+{
+    "title":"Roller Shades",
+    "url_title":"roller-shades",
+    "description":"SEO Page Summary for Roller Shades",
+    "keywords":"SEO Page Keywords for Roller Shades",
+    "entry_id":"4326",
+    "entry_date":"2015 02 28 - 3:36:22",
+    "edit_date":"2016 03 02 - 11:07:23",
+    "content_blocks":[
+        {
+            "content_block_type":"title_bar",
+            "title_bar":{
+                "image_url":"http://c67bfc7c934596c5d2de-384a0fe271c727cec0e8a9b32788243a.r54.cf1.rackcdn.com/57f5_VFF-TB-20160927-Roller_Shade.jpg",
+                "headline":"Fabricated Roller Shades",
+                "headline_svg":"http://www.valleyforge.com/uploads/media/title_bar-headline-high_roller.svg",
+                "body":"",
+                "custom_css":"blackout"
+            }
+        },
+        {
+            "content_block_type":"standard_block",
+            "alignment":"center",
+            "standard_block":{
+                "headline":"Fabricated Roller Shades",
+                "sub_headline":"",
+                "body":"A decorative flame resistant hospitality roller shade collection that gives you limitless possibilities. <br\/> Our Highroller\u2122 Collection combines the ease and simplicity of a roller shade with countless fabric choices \u2013 from sheer to opaque to blackout.  We offer a wide array of lifting system options including manual, motorized and battery-operated. Our Highroller\u2122 Collection provides the best products to meet any hospitality window application."
+            }
+        },
+        {
+            "content_block_type":"tabs",
+            "tabs":[
+                {
+                    "label":"Choosing The Right Fabric",
+                    "url":"",
+                    "tabContentBlocks":[
+                        {
+                            "content_block_type":"standard_block",
+                            "alignment":"center",
+                            "standard_block":{
+                                "headline":"Choosing The Right Fabric",
+                                "sub_headline":"",
+                                "body":"We realize how important selecting the right fabric for the right application can be. Each fabric, style, and category offers a different level of light control and privacy."
+                            }
+                        },
+                        {
+                            "content_block_type":"five_column",
+                            "five_column":{
+                                "headline":"",
+                                "sub_headline":"Understanding Opacity",
+                                "body":"<span> Decorative Fabrics </span>",
+                                "columns":[
+                                    {
+                                        "headline":"",
+                                        "sub_headline":"",
+                                        "body":"<h5> Sheer </h5> Most Light  <div class='br'></div> Least Privacy",
+                                        "image":"http://c67bfc7c934596c5d2de-384a0fe271c727cec0e8a9b32788243a.r54.cf1.rackcdn.com/5501_Opacity-Sheer-1.jpg"
+                                    },
+                                    {
+                                        "headline":"",
+                                        "sub_headline":"",
+                                        "body":"<h5> Semi Sheer </h5> Moderate Light <div class='br'></div> Some Privacy",
+                                        "image":"http://c67bfc7c934596c5d2de-384a0fe271c727cec0e8a9b32788243a.r54.cf1.rackcdn.com/54fd_Opacity-Semi_Sheer-1.jpg"
+                                    },
+                                    {
+                                        "headline":"",
+                                        "sub_headline":"",
+                                        "body":"<h5> Semi Opaque </h5> Some Light <div class='br'></div> More Privacy",
+                                        "image":"http://c67bfc7c934596c5d2de-384a0fe271c727cec0e8a9b32788243a.r54.cf1.rackcdn.com/54fd_Opacity-Semi_Opaque.jpg"
+                                    },
+                                    {
+                                        "headline":"",
+                                        "sub_headline":"",
+                                        "body":"<h5> Opaque Less </h5> Light <div class='br'></div> More Privacy",
+                                        "image":"http://c67bfc7c934596c5d2de-384a0fe271c727cec0e8a9b32788243a.r54.cf1.rackcdn.com/54fd_Opacity-Opaque.jpg"
+                                    },
+                                    {
+                                        "headline":"",
+                                        "sub_headline":"",
+                                        "body":"<h5> Blackout </h5> Least Light <div class='br'></div> Most Privacy",
+                                        "image":"http://c67bfc7c934596c5d2de-384a0fe271c727cec0e8a9b32788243a.r54.cf1.rackcdn.com/54fd_Opacity-Blackout.jpg"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "content_block_type":"five_column",
+                            "five_column":{
+                                "headline":"",
+                                "sub_headline":"Understanding Openness",
+                                "body":"<span> Solar Screen Fabrics </span> <ul> <li> Higher openness % means better visibility and <br/> view-through, more natural light but less privacy and UV <br/> blockage.</li> <li> Lower openness % means more privacy and more UV <br/> blockage, but less natural light and view-through.</li>",
+                                "columns":[
+                                    {
+                                        "headline":"",
+                                        "sub_headline":"",
+                                        "body":"<h5> 14% Solar </h5>",
+                                        "image":"http://c67bfc7c934596c5d2de-384a0fe271c727cec0e8a9b32788243a.r54.cf1.rackcdn.com/54fd_Solar-14.jpg"
+                                    },
+                                    {
+                                        "headline":"",
+                                        "sub_headline":"",
+                                        "body":"<h5> 10% Solar </h5>",
+                                        "image":"http://c67bfc7c934596c5d2de-384a0fe271c727cec0e8a9b32788243a.r54.cf1.rackcdn.com/54fd_Solar-10.jpg"
+                                    },
+                                    {
+                                        "headline":"",
+                                        "sub_headline":"",
+                                        "body":"<h5> 5% Solar </h5>",
+                                        "image":"http://c67bfc7c934596c5d2de-384a0fe271c727cec0e8a9b32788243a.r54.cf1.rackcdn.com/54fd_Solar-05.jpg"
+                                    },
+                                    {
+                                        "headline":"",
+                                        "sub_headline":"",
+                                        "body":"<h5> 3% Solar </h5>",
+                                        "image":"http://c67bfc7c934596c5d2de-384a0fe271c727cec0e8a9b32788243a.r54.cf1.rackcdn.com/54fd_Solar-03.jpg"
+                                    },
+                                    {
+                                        "headline":"",
+                                        "sub_headline":"",
+                                        "body":"<h5> 1% Solar </5>",
+                                        "image":"http://c67bfc7c934596c5d2de-384a0fe271c727cec0e8a9b32788243a.r54.cf1.rackcdn.com/54fd_Solar-01.jpg"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "content_block_type":"standard_block",
+                            "standard_block":{
+                                "headline":"",
+                                "sub_headline":"Light Colors and Dark Colors",
+                                "body":"Selecting the right color with solar screen shades is also an <div class='br'></div> important factor.  Even if they have the same openness %, light and <div class='br'></div> dark colored fabrics can impact view-through and energy <div class='br'></div> efficiency.  Light colors provide a softer view while <div class='br'></div> preserving natural light and allow less heat gain, whereas <br/> dark colors provide a crisp view while offering superior glare <div class='br'></div> control."
+                            }
+                        }
+                    ]
+                },
+                {
+                    "label":"Shade Options",
+                    "url":"",
+                    "tabContentBlocks":[
+                        {
+                            "content_block_type":"standard_block",
+                            "alignment":"center",
+                            "standard_block":{
+                                "headline":"Shade Options",
+                                "sub_headline":"",
+                                "body":""
+                            }
+                        },
+                        {
+                            "content_block_type":"two_column",
+                            "two_column":{
+                                "headline":"",
+                                "sub_headline":"",
+                                "body":"",
+                                "columns":[
+                                    {
+                                        "headline":"",
+                                        "sub_headline":"BlockOut System",
+                                        "body":"<ul> <li> Eliminates light gap and is perfect for rooms that require complete privacy and room darkening. </li> <li> Pair a blackout fabric with the BlockOut System for complete light blockage. </li> <li> Also available with optional exposed traveling hem bar. </li> </ul>"
+                                    },
+                                    {
+                                        "headline":"",
+                                        "sub_headline":"",
+                                        "body":"",
+                                        "image":"http://c67bfc7c934596c5d2de-384a0fe271c727cec0e8a9b32788243a.r54.cf1.rackcdn.com/54fd_RollerShade-Blackout_System.jpg"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "content_block_type":"two_column",
+                            "two_column":{
+                                "headline":"",
+                                "sub_headline":"Dual Roller Shades",
+                                "body":"<p>Available with both our standard clutch and motorized shades, each shade operates independently for the ultimate control of privacy and view-through.</p>",
+                                "columns":[
+                                    {
+                                        "headline":"",
+                                        "sub_headline":"Standard Roll",
+                                        "body":"Fabric rolls from back of the tube.",
+                                        "image":"http://c67bfc7c934596c5d2de-384a0fe271c727cec0e8a9b32788243a.r54.cf1.rackcdn.com/54fd_RollerShade---Shade_Option-Dual_Roller_Shade-Standard_Roll.jpg"
+                                    },
+                                    {
+                                        "headline":"",
+                                        "sub_headline":"Reverse Roll",
+                                        "body":"Fabric rolls from front of the tube. Not available with fascia.",
+                                        "image":"http://c67bfc7c934596c5d2de-384a0fe271c727cec0e8a9b32788243a.r54.cf1.rackcdn.com/54fd_RollerShade---Shade_Option-Dual_Roller_Shade-Reverse_Roll.jpg"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "content_block_type":"two_column",
+                            "two_column":{
+                                "headline":"",
+                                "sub_headline":"Top Treatment",
+                                "body":"",
+                                "columns":[
+                                    {
+                                        "headline":"",
+                                        "sub_headline":"Fascia",
+                                        "body":"The fascia top treatment offers an upscale contemporary, urban look. It is an ‘L’ shaped aluminum extrusion that covers the front and bottom of the roller. Available with single and dual roller shades. Can also be fabric-wrapped. "
+                                    },
+                                    {
+                                        "headline":"",
+                                        "sub_headline":"",
+                                        "body":"<br/> <br/>",
+                                        "image":"http://c67bfc7c934596c5d2de-384a0fe271c727cec0e8a9b32788243a.r54.cf1.rackcdn.com/54fd_RollerShade---Shade_Option-Top_Treatment-Fascia.jpg"
+                                    },
+                                    {
+                                        "headline":"",
+                                        "sub_headline":"Pocket",
+                                        "body":"The pocket top treatment is most commonly recessed into the ceiling. Available with single and dual roller shades, it visually conceals the roller and minimizes the gap through which the shade’s hembar passes. Provides clean lines and details."
+                                    },
+                                    {
+                                        "headline":"",
+                                        "sub_headline":"",
+                                        "body":"<br/> <br/> <br/>",
+                                        "image":"http://c67bfc7c934596c5d2de-384a0fe271c727cec0e8a9b32788243a.r54.cf1.rackcdn.com/54fd_RollerShade---Shade_Option-Top_Treatment-Pocket.jpg"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "content_block_type":"five_column",
+                            "five_column":{
+                                "headline":"",
+                                "sub_headline":"Available Colors",
+                                "body":"",
+                                "columns":[
+                                    {
+                                        "headline":"",
+                                        "sub_headline":"",
+                                        "body":"White",
+                                        "image":"http://c67bfc7c934596c5d2de-384a0fe271c727cec0e8a9b32788243a.r54.cf1.rackcdn.com/54fd_RollerShade-Shade_Option-Available_Colors-White.jpg"
+                                    },
+                                    {
+                                        "headline":"",
+                                        "sub_headline":"",
+                                        "body":"Ivory",
+                                        "image":"http://c67bfc7c934596c5d2de-384a0fe271c727cec0e8a9b32788243a.r54.cf1.rackcdn.com/54fd_RollerShade-Shade_Option-Available_Colors-Ivory.jpg"
+                                    },
+                                    {
+                                        "headline":"",
+                                        "sub_headline":"",
+                                        "body":"Bronze",
+                                        "image":"http://c67bfc7c934596c5d2de-384a0fe271c727cec0e8a9b32788243a.r54.cf1.rackcdn.com/54fd_RollerShade-Shade_Option-Available_Colors-Bronze.jpg"
+                                    },
+                                    {
+                                        "headline":"",
+                                        "sub_headline":"",
+                                        "body":"Black",
+                                        "image":"http://c67bfc7c934596c5d2de-384a0fe271c727cec0e8a9b32788243a.r54.cf1.rackcdn.com/54fd_RollerShade-Shade_Option-Available_Colors-Black.jpg"
+                                    },
+                                    {
+                                        "headline":"",
+                                        "sub_headline":"",
+                                        "body":"Anodized",
+                                        "image":"http://c67bfc7c934596c5d2de-384a0fe271c727cec0e8a9b32788243a.r54.cf1.rackcdn.com/54fd_RollerShade-Shade_Option-Available_Colors-Anodized.jpg"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "content_block_type":"standard_block",
+                            "standard_block":{
+                                "headline":"",
+                                "sub_headline":"Bottom Treatment",
+                                "body":"Sealed Hem <br/> A heat sealed pocket that contains a weighted hem bar.",
+                                "image":"http://c67bfc7c934596c5d2de-384a0fe271c727cec0e8a9b32788243a.r54.cf1.rackcdn.com/54fd_RollerShade---Shade_Option-Bottom_Treatmen.jpg"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "label":"Manual Clutch System",
+                    "url":"",
+                    "tabContentBlocks":[
+                        {
+                            "content_block_type":"standard_block",
+                            "alignment":"center",
+                            "standard_block":{
+                                "headline":"Manual Clutch System",
+                                "sub_headline":"",
+                                "body":"We offer a wide variety of exclusive manual clutch systems to meet any window application.  Installation choices range from simple mounting brackets, to end caps and fascia, to extruded pockets with bottom closure panels and side channels. Durable and built for longevity, our clutch lifting systems are provided in multiple sizes. <div class='br'></div> <div class='br'></div> <div class='br'></div>"
+                            }
+                        },
+                        {
+                            "content_block_type":"two_column",
+                            "two_column":{
+                                "headline":"",
+                                "sub_headline":"",
+                                "body":"",
+                                "columns":[
+                                    {
+                                        "headline":"",
+                                        "sub_headline":"Proprietary 3'' XD Clutch",
+                                        "body":"Our hospitality-exclusive slim profile clutch system is designed for smooth, quiet operation. Ideal for shades up to 84'' wide and 96'' long."
+                                    },
+                                    {
+                                        "headline":"",
+                                        "sub_headline":"",
+                                        "body":"<div class='br'></div>",
+                                        "image":"http://c67bfc7c934596c5d2de-384a0fe271c727cec0e8a9b32788243a.r54.cf1.rackcdn.com/54fd_RollerShade---Manual_Clutch_System-XD_Clutch.jpg"
+                                    },
+                                    {
+                                        "headline":"",
+                                        "sub_headline":"",
+                                        "body":"<h4> Small and Large XD Clutch </h4> Small and Large XD Clutch options are available for larger window openings. All of our clutch lifting systems feature the best in engineering. Only ‘hospitality-grade’ clutches are available and selected depending on the size of shade and the fabric required. <ul>  <li> Stainless steel (standard) bead chain can be mounted either on right (standard) or left side. </li> <li> Shades stop when chain is released. </li> <li> Stainless steel bead chain hangs at the side, leaving the view unobstructed. </li> <li> Up and down stops prevent shades from being raised or lowered too far. </li> <li> Our spring-loaded idler and universal brackets offer installation ease and flexibility. </li> <li> Optional Spring Assist available for larger shades. </li> <li> Spring-loaded chain tensioner included. </li> </ul>"
+                                    },
+                                    {
+                                        "headline":"",
+                                        "sub_headline":"",
+                                        "body":"Shown with Reverse Roll <div class='br'></div> <div class='br'></div> <div class='br'></div> <div class='br'></div> <div class='br'></div>",
+                                        "image":"http://c67bfc7c934596c5d2de-384a0fe271c727cec0e8a9b32788243a.r54.cf1.rackcdn.com/54fd_RollerShade---Manual_Clutch_System-Large_Small_XD_Clutch.jpg"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "content_block_type":"standard_block",
+                            "standard_block":{
+                                "headline":"",
+                                "sub_headline":"",
+                                "body":"<h4> Know The Difference </h4> <h5> Mechanism </h5> Our XD clutch uses POM thermoplastic with a welded 9mm steel post and rotational bearing to ensure smooth, quiet and dependable operation. <br/> <h5> Chain </h5> 120 lb. breaking strength stainless steel chain with XD technology. <h5> Hardware Options </h5> Extruded aluminum fascia/pockets that are powder coated at our manufacturing facility.  Over 180+ custom colors are available with the ability to powder coat hardware any color you desire. <h5> Roller Shade Deflection </h5> Strict tolerance for roller deflection. Allows only for 1/8'' deflection on all shades, regardless of width."
+                            }
+                        }
+                    ]
+                },
+                {
+                    "label":"Motorized System",
+                    "url":"",
+                    "tabContentBlocks":[
+                        {
+                            "content_block_type":"standard_block",
+                            "alignment":"center",
+                            "standard_block":{
+                                "headline":"Motorized System",
+                                "sub_headline":"",
+                                "body":"No one offers more motor options. Whether you are looking for quiet motors, motors with a built-in radio receiver, battery or low voltage operation, we have a solution. Any roller shade can be upgraded with one of our motorization options below:"
+                            }
+                        },
+                        {
+                            "content_block_type":"two_column",
+                            "two_column":{
+                                "headline":"",
+                                "sub_headline":"",
+                                "body":"",
+                                "columns":[
+                                    {
+                                        "headline":"",
+                                        "sub_headline":"",
+                                        "body":"<h5>Standard Motor </h5> 115V AC tubular motor with 4-wire pigtail. Provided as standard. <br/> <br/> <h5> Quiet Standard Motor </h5> Motor operates at 44 Db. Motor noise is approximately 30% less than standard tubular motors. <br/> <br/> <h5> Radio Technology Motor </h5> Quiet motor with built-in radio receiver. Operates at 44 Db. Motor noise is approximately 30% less than standard tubular motors. Compatible with wireless Radio Technology Controls. <div class='br'></div> <div class='br'></div> <h5> 24V DC Quiet Motor </h5> 24V DC Quiet motor available with dry contact, RF, and RS-48 5. Operates at 44Db and requires 24V transformer. Low voltage wiring does not require an electrician. Compatible with wireless Radio Technology Controls."
+                                    },
+                                    {
+                                        "headline":"",
+                                        "sub_headline":"",
+                                        "body":"<div class='br'></div> <div class='br'></div>",
+                                        "image":"http://c67bfc7c934596c5d2de-384a0fe271c727cec0e8a9b32788243a.r54.cf1.rackcdn.com/54fd_RollerShade-Shade_Option-Motorized_System.jpg"
+                                    },
+                                    {
+                                        "headline":"",
+                                        "sub_headline":"Intelligent Technology Motor",
+                                        "body":"Motor with built-in low voltage controller with 3-wire pigtail and data cable. No external motor controls required. Great motor for integration into automated systems. Compatible with Intelligent motor controls. Available with optional three-prong plug for plug-and-play operation."
+                                    },
+                                    {
+                                        "headline":"",
+                                        "sub_headline":"Quiet Intelligent Technology Motor",
+                                        "body":"In addition to the features listed for the above Intelligent Technology Motor, it operates at 44Db. <div class='br'></div> <div class='br'></div> <div class='br'></div> <div class='br'></div> <div class='br'></div>"
+                                    },
+                                    {
+                                        "headline":"",
+                                        "sub_headline":"",
+                                        "body":"<h4> Battery Operation with QMotion Technology </h4> <ul> <li> Offers the convenience of QMotion technology without cords or additional wiring for easy operation. </li> <li> Also includes a manual override for consistent reliable operation. </li> <li> Virtually silent shade movement. </li> <li> Easy battery replacement that doesn’t require uninstalling the complete shade. </li> <li> Smallest light gap in the industry. </li> </ul>"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "label":"Supporting Documents",
+                    "url":"",
+                    "tabContentBlocks":[
+                        {
+                            "content_block_type":"standard_block",
+                            "alignment":"center",
+                            "standard_block":{
+                                "headline":"Specifications",
+                                "sub_headline":"",
+                                "body":""
+                            }
+                        },
+                        {
+                            "content_block_type":"two_column",
+                            "two_column":{
+                                "headline":"",
+                                "sub_headline":"",
+                                "body":"",
+                                "columns":[
+                                    {
+                                        "headline":"",
+                                        "sub_headline":"Applications",
+                                        "body":"<ul> <li> Battery operated with QMotion  Technology </li> <li> Hard-Wired Motorization and RTS radio frequency motorization </i> <li> Heavy Duty XD Clutch– white clutch is standard, black color available upon request. Several sizes are available and can be specified based on shade size and fabric selected. </i> <li> Dual Roller available for both clutch and motorized shades </li> <li> BlockOut System with side and sill channels </li> </ul>"
+                                    },
+                                    {
+                                        "headline":"",
+                                        "sub_headline":"Optional Features",
+                                        "body":"<ul> <li> Fascia – Five standard colors – anodized, white, ivory, black and bronze. Also available fabric-wrapped.</li> <li> Pocket – white only </li> <li> Reverse roll for brackets only.  Cannot be used on dual roller shades. Not available with fascia. </li> </ul>"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "content_block_type":"two_column",
+                            "two_column":{
+                                "headline":"",
+                                "sub_headline":"Size Standards - Normal Fabric Orientation",
+                                "body":"",
+                                "columns":[
+                                    {
+                                        "headline":"",
+                                        "sub_headline":"",
+                                        "body":"XD Clutch Flexshade - 6'' OM minimum size, 144'' maximum width (depending on fabric). <br/> 144'' maximum height (depending on fabric).  Up to approximately 90'' wide and 108'' high for small size hardware, large size for anything wider or taller."
+                                    },
+                                    {
+                                        "headline":"",
+                                        "sub_headline":"",
+                                        "body":"Dual Clutch Roller Shade - 6'' OM minimum size, 90'' maximum width (depending on fabric). <br/> 108'' maximum height (depending on fabric). <br/> <br/> <br/>"
+                                    },
+                                    {
+                                        "headline":"",
+                                        "sub_headline":"",
+                                        "body":"Motorized Flexshade standard motor - 24'' OM minimum size, 168'' maximum width (depending on fabric). 168'' maximum height (depending on fabric).  Up to approximately 90'' wide and 108'' high for small size hardware, large size for anything wider or taller."
+                                    },
+                                    {
+                                        "headline":"",
+                                        "sub_headline":"",
+                                        "body":"Motorized Flexshade RTS motor - 27-1/8'' OM minimum size, 168'' maximum width (depending on fabric). 168'' maximum height (depending on fabric).  Up to approximately 90'' wide and 108'' high for small size hardware, large size for anything wider or taller."
+                                    },
+                                    {
+                                        "headline":"",
+                                        "sub_headline":"",
+                                        "body":"Side Channels for BlockOut shades - 2-1/2'' wide and up to 192'' in length. Colors - anodized, white, ivory, black, and bronze."
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "content_block_type":"two_column",
+                            "two_column":{
+                                "headline":"",
+                                "sub_headline":"Mounting Requirements",
+                                "body":"",
+                                "columns":[
+                                    {
+                                        "headline":"",
+                                        "sub_headline":"",
+                                        "body":"Inside (IB) Mount — Roller Shades <div class='br'></div> Minimum mounting depth: <div class='br'></div> XD Bracket <div class='br'></div> <ul> <li> Small size 2-11/16'' </li> <li> Large size 3-15/16'' </li> </ul> <div class='br'></div> Dual Roller Bracket: 3-7/8'' <div class='br'></div> Hard-Wired Motors <div class='br'></div> <ul> <li> Brackets Only 3-1/16'' vertical mount </li> </ul> Small fascia/endcap 2-11/16'' <div class='br'></div> Large fascia/endcap 3-15/16''"
+                                    },
+                                    {
+                                        "headline":"",
+                                        "sub_headline":"",
+                                        "body":"Minimum mounting depth, fully recessed:  <div class='br'></div> XD Clutch Small size -- 3-3/8'' deep x 3-7/8'' high  <div class='br'></div> XD Clutch Large size -- 4-5/8'' deep x 4-5/8'' high  <div class='br'></div> Dual Roller Bracket only 4-1/2'' deep x 7-1/8'' high  <div class='br'></div> Dual Roller Fascia/Endcap 4-3/4'' x 7'' high  <div class='br'></div> Hard-Wired Standard Motors or RTS Motors  <div class='br'></div> Brackets Only – 3-1/4'' deep x 3-7/8'' high  <div class='br'></div> Small fascia/endcap – 3-3/8'' deep x 3-7/8'' high  <div class='br'></div> Large fascia/endcap -- 4-5/8'' deep x 4-5/8'' high"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "content_block_type":"two_column",
+                            "two_column":{
+                                "headline":"",
+                                "sub_headline":"",
+                                "body":"",
+                                "columns":[
+                                    {
+                                        "headline":"",
+                                        "sub_headline":"Fabric And Tube Finished Dimensions",
+                                        "body":"IB measure deducts 1/8'' overall from finished width on all products <div class='br'></div> Cloth measure is 1-3/8'' less than overall finished width on XD clutch, standard motorized, and RTS motorized with brackets only <div class='br'></div> Cloth measure is 1-5/8'' less than overall finished width on XD clutch, standard motorized, and RTS motorized with small and large fascia. <div class='br'></div> Cloth measure is 1-5/8'' less than overall finished width on Dual Roller clutch shades <div class='br'></div> Cloth measure is 1-3/4'' less than overall finished width on Dual Roller motorized shades"
+                                    },
+                                    {
+                                        "headline":"",
+                                        "sub_headline":"Clutch and Tube Component Configuration",
+                                        "body":"XD Clutch Flexshade --  Heavy Duty XD Clutch <div class='br'></div> Less than 90'' wide – 1.56'' roller <div class='br'></div> 90''–110'' wide – 2'' roller <div class='br'></div> 110''–126'' – 2.56'' roller <div class='br'></div> 126''–144'' – 3'' roller  <div class='br'></div>  <div class='br'></div> Hard-wired standard and RTS  Motorized Flexshade <div class='br'></div> Less than 110'' wide – 2'' aluminum roller <div class='br'></div> 110''–126'' wide -- 2'' steel roller <div class='br'></div> 126''–144'' wide – 3'' steel roller <div class='br'></div> 144''–168'' wide – 3-1/8'' steel roller"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "content_block_type":"standard_block",
+                            "alignment":"center",
+                            "standard_block":{
+                                "headline":"",
+                                "sub_headline":"Supporting Documents",
+                                "body":"<!-- <span> <img src='http://c67bfc7c934596c5d2de-384a0fe271c727cec0e8a9b32788243a.r54.cf1.rackcdn.com/5500_download.gif' alt='download' /> </span> Roller shade size standards and mounting requirements. <br/> <br/> --> <span> <img src='http://c67bfc7c934596c5d2de-384a0fe271c727cec0e8a9b32788243a.r54.cf1.rackcdn.com/5500_download.gif' alt='download' /> </span> <a href='/uploads/pdf/HighRoller_Component_Guide-Web_Optimized.pdf' target='_blank'> Roller shade Component Guide (Manual, Motorized, and Battery Operated) </a> <br/>"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "content_block_type":"standard_block",
+            "alignment":"center",
+            "standard_block":{
+                "headline":"",
+                "sub_headline":"",
+                "body":"",
+                "button":{
+                    "url":"/contact-us",
+                    "label":"Contact Us",
+                    "style":"transparent-black"
+                }
+            }
+        }
+    ]
+}

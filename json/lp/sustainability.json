@@ -1,0 +1,213 @@
+{
+    "title":"Sustainability",
+    "url_title":"sustainability",
+    "description":"SEO Page Summary for Sustainability",
+    "keywords":"SEO Page Keywords for Sustainability",
+    "entry_id":"4328",
+    "entry_date":"2015 02 28 - 3:37:45",
+    "edit_date":"2016 03 02 - 11:07:46",
+    "content_blocks":[
+        {
+            "content_block_type":"title_bar",
+            "title_bar":{
+                "image_url":"http://c67bfc7c934596c5d2de-384a0fe271c727cec0e8a9b32788243a.r54.cf1.rackcdn.com/57f5_VFF-TB-20160927-Sustainability.jpg",
+                "headline":"Sustainability",
+                "headline_svg":"",
+                "body":"This luxurious textured fabric is naturally elegant in earth tone colors, while saturated and sophisticated in the vibrant tones",
+                "custom_css":""
+            }
+        },
+        {
+            "content_block_type":"standard_block",
+            "alignment":"center",
+            "standard_block":{
+                "headline":"",
+                "sub_headline":"",
+                "body":"As a part of our sustainability commitment, Valley Forge is dedicated to living and working together harmoniously with our environment. We have made the preservation of our planet and its resources a priority since 2002 by including recycled products in our standard product line that is marketed around the world. <br\/><br\/> Because Valley Forge Fabrics is the world\u2019s leading supplier of decorative interior textiles for the Hospitality industry, we are able to use our influence in the textile manufacturing industry to further the innovation and use of recycled fibers, fibers made from Eucalyptus, and recyclable textiles."
+            }
+        },
+        {
+            "content_block_type":"tabs",
+            "tabs":[
+                {
+                    "label":"FRESH",
+                    "url":"fresh",
+                    "tabContentBlocks":[
+                        {
+                            "content_block_type":"standard_block",
+                            "alignment":"center",
+                            "standard_block":{
+                                "headline":"",
+                                "sub_headline":"",
+                                "body":"",
+                                "image":"http://c67bfc7c934596c5d2de-384a0fe271c727cec0e8a9b32788243a.r54.cf1.rackcdn.com/56b3_Fresh.jpg"
+                            }
+                        },
+                        {
+                            "content_block_type":"two_column",
+                            "two_column":{
+                                "headline":"",
+                                "sub_headline":"",
+                                "body":"",
+                                "columns":[
+                                    {
+                                        "headline":"",
+                                        "sub_headline":"",
+                                        "body":"<a href='/design-library/CU21+OR+CU22'> <img class='image ng-scope' ng-if='column.image' ng-src='http://c67bfc7c934596c5d2de-384a0fe271c727cec0e8a9b32788243a.r54.cf1.rackcdn.com/VFF-20160927-Sustainability-Fresh.jpg' src='http://c67bfc7c934596c5d2de-384a0fe271c727cec0e8a9b32788243a.r54.cf1.rackcdn.com/VFF-20160927-Sustainability-Fresh.jpg'></a>"
+                                    },
+                                    {
+                                        "headline":"",
+                                        "sub_headline":"",
+                                        "body":"FRESH® is an acronym for Fabrics Re-defining Environmental Standards for Hospitality. FRESH® fabrics are 100% recycled content - no blends. Because of their unique construction, FRESH® fabrics are recyclable. We have established a reclamation service, that will transport FRESH® fabrics to a recycling facility, at the end of their lifecycle.<br><br>We are the only textile company to date that has a reclamation program in place to facilitate the recycling of all FRESH® products. Making a recyclable product is important, but without offering our process, hotels would have no way to actually recycle. We will take back FRESH® product and recycle it for various end uses that today’s technologies allow. We currently recycle FRESH® product into blankets, foam for pillows, plastics for car interiors, and various other plastics in the open market.<br>Valley Forge will pick up FRESH® fabrics from the property loading dock and deliver them to one of our fabric recyclers. We will select the fabric recycler closest to the property.<br><br>All FRESH® products can be identified by labels with the recycled symbol, and an “F” to clearly identify them as recyclable products, with an established reclamation program. The “F” inside the symbol stands for FRESH®. <br/> <br/>  <img src='http://c67bfc7c934596c5d2de-384a0fe271c727cec0e8a9b32788243a.r54.cf1.rackcdn.com/54fd_FRESH-Recycle-Logo.png' alt='FRESH recycled fabrics logo' />"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "label":"Carbon Off-Setting",
+                    "url":"carbon-off-setting",
+                    "tabContentBlocks":[
+                        {
+                            "content_block_type":"standard_block",
+                            "color":"black",
+                            "alignment":"center",
+                            "standard_block":{
+                                "headline":"Carbon Off-Setting",
+                                "sub_headline":"",
+                                "body":""
+                            }
+                        },
+                        {
+                            "content_block_type":"standard_block",
+                            "color":"black",
+                            "alignment":"center",
+                            "standard_block":{
+                                "headline":"",
+                                "sub_headline":"What is Carbon Off-Setting?",
+                                "body":"Carbon offsetting is the process of reducing the net carbon emissions of an individual or organization, either by their own actions, or through arrangements with a carbon-offset provider. A carbon offset provider achieves net reduction of greenhouse gas emissions through proxies who reduce their emissions or increase their absorption of greenhouse gases."
+                            }
+                        },
+                        {
+                            "content_block_type":"standard_block",
+                            "color":"black",
+                            "alignment":"center",
+                            "standard_block":{
+                                "headline":"",
+                                "sub_headline":"What is a Renewable Energy Credit (REC)?",
+                                "body":"A renewable energy credit (REC) is an environmental commodity that represents the added value and cost of renewable energy above conventional methods of producing electricity, namely by burning coal and natural gas.  RECs help wind farms and other renewable energy facilities grow by making them more financially viable, thereby incentivizing development.  Renewable Choice RECs are tracked and verified by a leading national third-party REC auditing organization, Green-e Energy (a division of the Center for Resource Solutions) <br/> <br/> <br/> For additional information please visit: <br/> <a href='http://www.renewablechoice.com' target='_blank'> www.renewablechoice.com </a> <br/> <a href='http://www.green-e.org' target='_blank'> www.green-e.org </a>"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "label":"Proposition 65",
+                    "url":"preposition-65",
+                    "tabContentBlocks":[
+                        {
+                            "content_block_type":"standard_block",
+                            "alignment":"center",
+                            "standard_block":{
+                                "headline":"Proposition 65",
+                                "sub_headline":"",
+                                "body":""
+                            }
+                        },
+                        {
+                            "content_block_type":"standard_block",
+                            "standard_block":{
+                                "headline":"",
+                                "sub_headline":"What are Proposition 65 warnings?",
+                                "body":"You may have seen the following warning on products or items you have purchased; WARNING: This product contains chemicals known to the State of California to cause cancer and/or to cause birth defects or other reproductive harm. This warning is a result of California’s Proposition 65.  To be clear, Proposition 65 does not ban the sale of any products containing these chemicals; it only requires the warnings."
+                            }
+                        },
+                        {
+                            "content_block_type":"standard_block",
+                            "standard_block":{
+                                "headline":"",
+                                "sub_headline":"What kinds of substances require warnings? ",
+                                "body":"Over 800 chemicals have been listed under California law. Prop 65 standards are among the most stringent standards in place anywhere and are often far more stringent than federal standards. You can find the list on the Proposition 65 website: <br/> <br/> <a href='http://oehha.ca.gov/prop65/prop65_list/newlist.html' target='_blank'>http://oehha.ca.gov/prop65/prop65_list/newlist.html</a>"
+                            }
+                        },
+                        {
+                            "content_block_type":"standard_block",
+                            "standard_block":{
+                                "headline":"",
+                                "sub_headline":"Should I be concerned?",
+                                "body":"You should always be aware and take heed of all product warnings. Does a Prop 65 warning mean that the product will actually cause cancer or other reproductive harm when the product is used in its typical way? Not necessarily. The listing of a chemical under Prop 65 could be the result of tests on laboratory animals where the animals are fed very high levels of chemicals. Prop 65 standards are often stringent. For example, for reproductive toxicants, the level for warnings is 1000 times lower than the lowest level at which animal studies reported no reproductive health effect. A Prop 65 warning does not automatically mean that products are unsafe. While we believe our products are not harmful when used as designed, we provide the warning as a result of this California law."
+                            }
+                        },
+                        {
+                            "content_block_type":"standard_block",
+                            "standard_block":{
+                                "headline":"",
+                                "sub_headline":"How are these warnings determined?",
+                                "body":"California has a formal process for adding chemicals to the Prop 65 list. Prop 65 allows chemicals to be listed in various ways, including through reports what are based on animal studies. In many instances, these animal studies involve extremely high dosage of chemicals being ingested."
+                            }
+                        },
+                        {
+                            "content_block_type":"standard_block",
+                            "standard_block":{
+                                "headline":"",
+                                "sub_headline":"How does the California warnings compare to federal Limits? ",
+                                "body":"It should be noted that California product label warning requirements are not usually the same as federal safety requirements. This causes a mismatch between warnings on products sold in California and what is required in the USA. This can explain why sometimes you may see a California Prop 65 warning on a product sold in California but no warning on the same product sold elsewhere. These products are not made different; it is just that Prop 65 warnings are required by California law. "
+                            }
+                        },
+                        {
+                            "content_block_type":"standard_block",
+                            "standard_block":{
+                                "headline":"",
+                                "sub_headline":"More Details",
+                                "body":"A Proposition 65 warning generally means one of two things: (1) the business has evaluated the exposure and has concluded that it exceeds the risk level as defined by the law; or (2) the business has chosen to provide a warning simply based on its knowledge about the presence of a listed chemical without attempting to evaluate the exposure. We have chosen to provide a warning based on our knowledge about the presence of one or more listed chemicals without attempting to evaluate the level of exposure, as not all of the listed chemicals provide exposure limit requirements. With our products, the exposure may be negligible or well within the “no significant risk” range. However, out of an abundance of caution, we have elected to provide the Proposition 65 warnings. "
+                            }
+                        },
+                        {
+                            "content_block_type":"standard_block",
+                            "standard_block":{
+                                "headline":"",
+                                "sub_headline":"Still Confused?",
+                                "body":"Prop 65 warnings are seen throughout California in a wide range of settings- in restaurants, grocery stores, hotels, schools, hospitals, and on a wide variety of products. In addition, some internet and mail order retailers have chosen to provide Prop 65 warnings on their websites or in catalogs for all their products and for all consumers."
+                            }
+                        }
+                    ]
+                },
+                {
+                    "label":"Creative Reuse Centers",
+                    "url":"creative-reuse-centers",
+                    "tabContentBlocks":[
+                        {
+                            "content_block_type":"standard_block",
+                            "alignment":"center",
+                            "standard_block":{
+                                "headline":"Creative Reuse Centers",
+                                "sub_headline":"",
+                                "body":""
+                            }
+                        },
+                        {
+                            "content_block_type":"standard_block_video",
+                            "standard_block_video":{
+                                "video_src":"http:\/\/4252805dae76ab552633-0bff195b1e52c63f8fae47f6b90459f3.r55.cf1.rackcdn.com\/VFF-Sustainability-Creative_Reuse_Centers-HD.mp4"
+                            }
+                        },
+                        {
+                            "content_block_type":"standard_block",
+                            "alignment":"center",
+                            "standard_block":{
+                                "headline":"",
+                                "sub_headline":"",
+                                "body":"",
+                                "button":{
+                                    "url":"/goto/pdf/VFF-Sustainability-Creative_Reuse_Centers-Directory_Listing.pdf",
+                                    "label":"Download List of Reuse Centers",
+                                    "style":"transparent-black"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

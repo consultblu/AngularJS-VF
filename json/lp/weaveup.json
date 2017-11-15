@@ -1,0 +1,97 @@
+{
+    "title":"WeaveUp",
+    "url_title":"weaveup",
+    "description":"SEO Page Summary for WeaveUp",
+    "keywords":"SEO Page Keywords for WeaveUp",
+    "entry_id":"4785",
+    "entry_date":"2015 07 02 - 12:57:43",
+    "edit_date":"2016 01 28 - 9:56:44",
+    "content_blocks":[
+        {
+            "content_block_type":"title_bar",
+            "title_bar":{
+                "image_url":"http://c67bfc7c934596c5d2de-384a0fe271c727cec0e8a9b32788243a.r54.cf1.rackcdn.com/57f5_VFF-TB-20160926-Urban_Echoes_Collection.jpg",
+                "headline":"WeaveUp",
+                "headline_svg":"http://www.valleyforge.com/uploads/media/WUP-Logo-Text.svg",
+                "body":"",
+                "custom_css":""
+            }
+        },
+        {
+            "content_block_type":"standard_block",
+            "alignment":"center",
+            "standard_block":{
+                "headline":"",
+                "sub_headline":"",
+                "body":"",
+                "image":"http:\/\/c67bfc7c934596c5d2de-384a0fe271c727cec0e8a9b32788243a.r54.cf1.rackcdn.com\/5595_WUP-Logo-Gray-full.svg"
+            }
+        },
+        {
+            "content_block_type":"two_column",
+            "two_column":{
+                "headline":"",
+                "sub_headline":"",
+                "body":"",
+                "columns":[
+                    {
+                        "headline":"",
+                        "sub_headline":"",
+                        "body":"<p> Valley Forge has partnered with WeaveUp, a revolutionary technology solution that hosts a community of artists worldwide and connects them directly to the Hospitality industry. </p> <p> People are artists…people create patterns…companies are not artists, and companies do not create patterns. Traditional pattern selection is edited and filtered by companies, and Interior Designers only see what is left after that selection process. </p> <p> WeaveUp provides a platform for designers to connect with the artists directly, enabling our customers to search easily through inspiring art and patterns, and empowering the users with control over the customization process. </p> <p> WeaveUp is fun, and more importantly, opens an entire world of possibilities in terms of selection and personalization. </p>"
+                    },
+                    {
+                        "headline":"",
+                        "sub_headline":"",
+                        "body":"<p>The huge amount of time that was formerly spent on administrative functions and meetings to search and coordinate textiles for a space can now be replaced with more time spent on creative flow. </p> <p> WeaveUp offers 27 variations of base cloths for you to choose from including, Sheers, Bedskirt, Bedding, Drapery and Casual Use. There is no minimum order requirement for a custom item on WeaveUp.</p>  <p> To be a contributing Artist on WeaveUp click <a href='https://weaveup.com/#/artist-signup'> here. <i class='fa fa-external-link'> </i> </a> </p> <p style='height:70px;'>&nbsp;</p>",
+                        "youtube":"HkTpe-U1VnQ"
+                    },
+                    {
+                        "headline":"",
+                        "sub_headline":"",
+                        "body":"<p><img class='image ng-scope' ng-if='column.image' ng-src='http://481cbd1465003c93de46-18405a48272a0f181ce0993cbfa4bdfb.r35.cf1.rackcdn.com/VFF-CTA-10272017-MARBLE-ENVY.jpg' src='http://481cbd1465003c93de46-18405a48272a0f181ce0993cbfa4bdfb.r35.cf1.rackcdn.com/VFF-CTA-10272017-MARBLE-ENVY.jpg'></p>"
+                    },
+                    {
+                        "headline":"",
+                        "sub_headline":"Color Matching in WeaveUp",
+                        "body":"<p>Our Huesteria&trade; color palette matching system gives the best range of variable colors achievable and calibrated to our print environment. Select the WUP Chip number from the WeaveUp Tool Book at your desk and input it into WeaveUp to achieve effortless color match!</p>"
+                    },
+                    {
+                        "headline":"",
+                        "sub_headline":"How to read WeaveUp color chips",
+                        "body":"<p><br /> <img src='http://c67bfc7c934596c5d2de-384a0fe271c727cec0e8a9b32788243a.r54.cf1.rackcdn.com/557b_weaveup.png' alt='how to read weaveup color chips' /></p>"
+                    }
+                ]
+            }
+        },
+        {
+            "content_block_type":"standard_block",
+            "standard_block":{
+                "headline":"",
+                "sub_headline":"Understanding LAB",
+                "body":"<p>LAB color modes&#8217; unique properties include all perceivable colors, meaning its gamut is more expansive than RGB and CMYK color modes. LAB is also device independent and allows color to be communicated effectively across all devices. <br\/> <\/p><div class='lab'> <p class='lab_label'>L Channel<\/p> <p> Lightness channel - consists of the darkest black with a value of 0 and the brightest white with a value of 100. <\/p> <div class='l_channel'> <\/div> <div class='start'>0 <br\/> Black <\/div> <div class='end'> 100 <br\/> White <\/div> <\/div> <br\/> <div class='lab'> <p class='lab_label'>A Channel<\/p> <p> Represents green to red with green in negative values and red in positive values. <\/p> <div class='a_channel'> <\/div> <div class='start'> - <br\/> Green <\/div> <div class='end'> + <br\/> Red <\/div> <\/div> <br\/> <div class='lab'> <p class='lab_label'>B Channel<\/p> <p> Represents blue to yellow with blue in negative values and yellow in positive values. <\/p> <div class='b_channel'> <\/div> <div class='start'> - <br\/> Blue <\/div> <div class='end'> + <br\/> Yellow <\/div> <\/div>"
+            }
+        },
+        {
+            "content_block_type":"standard_block",
+            "standard_block":{
+                "headline":"",
+                "sub_headline":"Before you print",
+                "body":"<ul> <li> Within industry standards, color variations may occur. <\/li> <li> Prints are washable at 110 degrees F and below, higher temperatures will cause colors to bleed. <\/li> <li> The color of this item is applied by a topical printing process. This is not a dyed item. Any movement of the yarns can cause white to show on the surface. <\/li> <li> Price is influenced by quantity and base cloth quality.  If any changes occur in either, please note that we will have to revise pricing. <\/li> <li> All samples are digitally printed. Production goods will be printed at a production print facility with a different print process. There may be some variation. <\/li> <\/ul>"
+            }
+        },
+        {
+            "content_block_type":"standard_block",
+            "alignment":"center",
+            "standard_block":{
+                "headline":"",
+                "sub_headline":"",
+                "body":"",
+                "button":{
+                    "url":"/contact-us",
+                    "label":"Contact Us",
+                    "style":"transparent-black"
+                }
+            }
+        }
+    ]
+}

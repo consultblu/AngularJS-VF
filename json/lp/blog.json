@@ -1,0 +1,25 @@
+{
+    "title":"Blog",
+    "url_title":"blog",
+    "description":"SEO Page Summary for Fiftyfour\/118th; A Blog by Valley Forge Fabrics",
+    "keywords":"SEO Page Keywords for SEO Page Summary for Fiftyfour\/118th; A Blog by Valley Forge Fabrics",
+    "entry_id":"5085",
+    "entry_date":"2015 09 30 - 7:31:02",
+    "edit_date":"2016 03 10 - 4:17:03",
+    "content_blocks":[
+        {
+            "content_block_type":"title_bar",
+            "title_bar":{
+                "image_url":"http://c67bfc7c934596c5d2de-384a0fe271c727cec0e8a9b32788243a.r54.cf1.rackcdn.com/57f5_VFF-TB-20160927-Blog.jpg",
+                "headline":"",
+                "headline_svg":"http://www.valleyforge.com/uploads/media/title_bar-blog-54_118.svg",
+                "body":"",
+                "custom_css":""
+            }
+        },
+        {
+            "content_block_type":"blog",
+            "blog":""
+        }
+    ]
+}

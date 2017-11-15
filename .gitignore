@@ -1,0 +1,7 @@
+.git
+.vagrant
+.idea
+bower_components
+node_modules
+dump
+_notes

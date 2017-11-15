@@ -1,0 +1,228 @@
+{
+   "title":"Revl",
+   "url_title":"revl",
+   "description":"SEO Page Summary for Revl",
+   "keywords":"SEO Page Keywords for Revl",
+   "entry_id":"4614",
+   "entry_date":"2015 04 30 - 10:47:25",
+   "edit_date":"2016 01 28 - 10:40:26",
+   "content_blocks":[
+      {
+         "content_block_type":"title_bar",
+         "title_bar":{
+            "image_url":"http://c67bfc7c934596c5d2de-384a0fe271c727cec0e8a9b32788243a.r54.cf1.rackcdn.com/57ee_title_bar-revl.jpg",
+            "headline":"Revl",
+            "headline_svg":"http://www.valleyforge.com/uploads/media/title_bar-headline-revl.svg",
+            "body":"",
+            "custom_css":""
+         }
+      },
+      {
+         "content_block_type":"standard_block",
+         "alignment":"center",
+         "standard_block":{
+            "headline":"",
+            "sub_headline":"",
+            "body":"",
+            "image":"http:\/\/c67bfc7c934596c5d2de-384a0fe271c727cec0e8a9b32788243a.r54.cf1.rackcdn.com\/5542_Revl-SB-Logo.png"
+         }
+      },
+      {
+         "content_block_type":"standard_block",
+         "alignment":"center",
+         "standard_block":{
+            "headline":"A Revolution in Vinyl",
+            "sub_headline":"",
+            "body":"<p>Valley Forge and Crypton introduces Revl to the hospitality industry, a leading-edge product designed to perform under the toughest of conditions and keep spaces looking as good as the day they were installed. Offering extreme cleanability, durability to repeated cleanings and to a variety of cleaners and disinfectants, Revl is a true eye-opener in the world of vinyl. <br\/><\/p><p> <strong>Made In USA<\/strong><\/p>"
+         }
+      },
+      {
+         "content_block_type":"tabs",
+         "tabs":[
+            {
+               "label":"Features",
+               "url":"",
+               "tabContentBlocks":[
+                  {
+                     "content_block_type":"standard_block",
+                     "alignment":"center",
+                     "standard_block":{
+                        "headline":"Features",
+                        "sub_headline":"",
+                        "body":"<p>Revl’s innovative engineering and superior stain-resistant technology allow for repeated cleanings and the easy removal of tough stains while maintaining the product’s original appearance and performance characteristics.</p>"
+                     }
+                  },
+                  {
+                     "content_block_type":"two_column",
+                     "two_column":{
+                        "headline":"",
+                        "sub_headline":"",
+                        "body":"",
+                        "columns":[
+                           {
+                              "headline":"",
+                              "sub_headline":"",
+                              "body":"<h5>Superior Cleanability</h5> <p>Easily releases permanent marker, denim dye transfer, food stains and more.</p> <h5>Durable to Harsh Cleaners</h5> <p>Proven to work well against the industry’s most common cleaners and disinfectants.</p> <h5>Withstands Repeated Cleanings</h5> <p>Maintains its original appearance and performance properties after repeated cleanings.</p> <h5>Anti-Microbial</h5> <p>Resists a wide spectrum of bacterial and fungal growth.</p> <h5>Made In USA</h5> <p>A quality, regulated product; made in the USA by trusted US companies.</p><p> <img src='http://c67bfc7c934596c5d2de-384a0fe271c727cec0e8a9b32788243a.r54.cf1.rackcdn.com/5529_Flag-USA.svg' alt='made in the usa' width='70' height='42' /></p>"
+                           },
+                           {
+                              "headline":"",
+                              "sub_headline":"",
+                              "body":"",
+                              "image":"http://c67bfc7c934596c5d2de-384a0fe271c727cec0e8a9b32788243a.r54.cf1.rackcdn.com/5542_Revl-Ads-325x411.jpg"
+                           }
+                        ]
+                     }
+                  },
+                  {
+                     "content_block_type":"two_column",
+                     "two_column":{
+                        "headline":"",
+                        "sub_headline":"Care and Maintenance",
+                        "body":"",
+                        "columns":[
+                           {
+                              "headline":"",
+                              "sub_headline":"",
+                              "body":"<h6>General Maintenance</h6> <p>Wipe down the surface with water and a soft cloth as needed.</p> <h6>Spot-Cleanning</h6> <ol> <li> Remove any excess debris from the surface using a clean, dry, cotton ball.</li> <li>Use a clean, dry cotton ball, pad or soft cloth to remove each stain using a light circular motion. Repeat until stain has disappeared.</li> </ol>"
+                           },
+                           {
+                              "headline":"",
+                              "sub_headline":"",
+                              "body":"<h5> Tougher Stains</h5> <p><strong>Mustard, iodine, dirty motor oil and corn oil</strong>, first use a soap-and-water solution of 1/2 tsp mild dishwashing liquid and 1c water on a clean, soft cloth. If a hint of stain still remains, use 91% Isopropul Alcohol* on a clean piece of cotton in a light circular motion to remove the remainder of the stain.</p> <p><strong>Denim dye transfer, permanent marker and ball point pen</strong>, use 91% Isopropyl Alcohol* on a clean piece of cotton in a light circular motion. </p>"
+                           }
+                        ]
+                     }
+                  },
+                  {
+                     "content_block_type":"standard_block",
+                     "standard_block":{
+                        "headline":"",
+                        "sub_headline":"",
+                        "body":"<p>*91% Isopropyl Alcholo (IPA) is readily available at most drug stores. Lower concentrations can also be used effectively.</p>"
+                     }
+                  }
+               ]
+            },
+            {
+               "label":"Specifications",
+               "url":"",
+               "tabContentBlocks":[
+                  {
+                     "content_block_type":"standard_block",
+                     "alignment":"center",
+                     "standard_block":{
+                        "headline":"Specifications",
+                        "sub_headline":"",
+                        "body":""
+                     }
+                  },
+                  {
+                     "content_block_type":"standard_block",
+                     "standard_block":{
+                        "headline":"",
+                        "sub_headline":"Product Description",
+                        "body":"<p>Crypton-protected expanded vinyl on a polyester / cotton jesey knit subtrate, 21 oz / yd2 total weight, 49 mils thick, 54” minimum width.</p>"
+                     }
+                  },
+                  {
+                     "content_block_type":"standard_block",
+                     "standard_block":{
+                        "headline":"",
+                        "sub_headline":"Applications",
+                        "body":"<p>Commercial upholstery for moderate to high traffic areas (contract, hotel, restaurant, healthcare, marine, public places).</p>"
+                     }
+                  },
+                  {
+                     "content_block_type":"standard_block",
+                     "standard_block":{
+                        "headline":"",
+                        "sub_headline":"Cleanability",
+                        "body":"<p>Stain Rating of 4-5, 5 max using AATCC chromatic scale (with recommended cleaner) </p><ul> <li>Food / Oil-Based Stains (Mustard, Dirty Motor Oil, Corn Oil, Betadine and Black Coffee) - (1% Mild Liquid Detergent)</li> <li>Ballpoint Pen &amp; Permanent Marker - (91% IPA) </li> <li>Blood &amp; Urine - (91% IPA) </li> <li>Denim Color Transfer - AATCC 8 Mod., 30 &amp; 100 Rubs on Crockometer, 91% IPA) </li> </ul>"
+                     }
+                  },
+                  {
+                     "content_block_type":"standard_block",
+                     "standard_block":{
+                        "headline":"",
+                        "sub_headline":"Resistance to Color Transfer",
+                        "body":"<p>Resistance to Crocking - (AATCC 8, Class 5 Wet / 5 Dry)</p>"
+                     }
+                  },
+                  {
+                     "content_block_type":"standard_block",
+                     "standard_block":{
+                        "headline":"",
+                        "sub_headline":"Durability to Cleaners and Disinfectants",
+                        "body":"<p>Durable to 45+ cleaners and disinfectants (see list below)</p>"
+                     }
+                  },
+                  {
+                     "content_block_type":"standard_block",
+                     "standard_block":{
+                        "headline":"",
+                        "sub_headline":"Performance Properties",
+                        "body":"<p>Wyzenbeek Abrasion – (CFFA-1A, #10 cotton duct, 100,000 cycles)&nbsp; <br /> Cold Crack – (CFFA-6a, no cracking @ -20°F)&nbsp; <br /> Bally – (ISO 5402, no cracking @ 100,000 cycles)&nbsp; <br /> W-Flex – (CFFA-10, no cracking @ 50,000 cycles)&nbsp; <br /> Adhesion of Coating – (ISO 2411, 8lb / in)&nbsp; <br /> Tear Resistance – (CFFA-16, machine > 20 lbf, cross > 15 lbf)&nbsp; <br /> Tensile Strength – (CFFA-17, > 85 lbf, both directions)</p>"
+                     }
+                  },
+                  {
+                     "content_block_type":"standard_block",
+                     "standard_block":{
+                        "headline":"",
+                        "sub_headline":"Gloss Level",
+                        "body":"<p>Full range of luster, from matte (≥2) to glossy. Performance is maintained, regardless of gloss level.</p>"
+                     }
+                  },
+                  {
+                     "content_block_type":"standard_block",
+                     "standard_block":{
+                        "headline":"",
+                        "sub_headline":"Colorfastness to Light",
+                        "body":"<p>Resistance to Fade (ASTM G154, 650 hours, Class 4-5 using AATCC chromatic scale).</p>"
+                     }
+                  },
+                  {
+                     "content_block_type":"standard_block",
+                     "standard_block":{
+                        "headline":"",
+                        "sub_headline":"Antimicrobial",
+                        "body":"<p>Antimicrobial treatment imparts resistance to a wide spectrum of bacterial and fungal growth <br/> Resistance to Bacterial Growth<br/></p><p>Resistance to Fungal Growth</p>"
+                     }
+                  },
+                  {
+                     "content_block_type":"standard_block",
+                     "standard_block":{
+                        "headline":"",
+                        "sub_headline":"Flammability",
+                        "body":"<p>Third-party GREENGUARD Certified <br/></p><p> Made in the USA.</p>"
+                     }
+                  },
+                  {
+                     "content_block_type":"standard_block",
+                     "standard_block":{
+                        "headline":"",
+                        "sub_headline":"",
+                        "body":"<p>** 3M HB Quat – Neutral, A-456 II Disinfectant Cleaner, Acetone, Asepticare II, Birex SE, Bleach (10% Diluted), Cavi-Cide, CaviWipes, Chemspec, Citrace, Clorox Bleach Germicidal Cleaner*, Clorox Broad Spectrum, Clorox EZ-KILL Wipes, Crypton Disinfectant &amp; Deodorizer, Crypton Gold, Crypton Ink emover, Crypton Leather / Vinyl Cleaner, Crypton Purple, Dawn (1%), Dispatch, Fade-A-Dyne, Formula 409, Fresh Breeze TB, Grease Lightning, Hydrogen Peroxide, IPA (91%), Lysol, Mopar Total Clean, Norix Fabric Cleaner, Oasis 146 Multi-Quat, Optim 33 TB, Oxyclean, Precise Hospital Cleaner, Resolve, Sani-Cloth AF, Sani-Cloth HB, Sanizide, Steriplex, Steris Coverage, Plus Wipes, Super Sani-Cloth, Teflon Carpet &amp; Upholstery, Virasept, Virox Accel Tb, Virex II 256 Tb, Virex Tb, Virox 5 Tb, Wexcide 128, Windex <br/> <br/></p><p> Note: Bleach concentrations >10% for 10 min is not recommended.</p>"
+                     }
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "content_block_type":"standard_block",
+         "color":"black",
+         "alignment":"center",
+         "style":"transparent-black",
+         "standard_block":{
+            "headline":"",
+            "sub_headline":"",
+            "body":"",
+            "button":{
+               "url":"/contact-us",
+               "label":"Contact Us",
+               "style":"transparent-black"
+            }
+         }
+      }
+   ]
+}
