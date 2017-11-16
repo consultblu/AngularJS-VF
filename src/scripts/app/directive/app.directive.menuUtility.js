@@ -22,7 +22,7 @@ app.directive('menuUtility', function () {
       };
       $rootScope.logIn = function () {
         //      console.log("Login function executed!!");
-        $scope.dlg = dialogs.create('index_new.php/views/login-form/', 'LoginModalCtrl', {}, {
+        $scope.dlg = dialogs.create('/views/login-form/', 'LoginModalCtrl', {}, {
           key: true,
           back: 'static'
         });
@@ -35,11 +35,11 @@ app.directive('menuUtility', function () {
       };
       $scope.logOut = function ($scope) {
         var instance = $modal.open({
-          templateUrl: 'index_new.php/views/logout-form',
+          templateUrl: '/views/logout-form',
           controller: function ($scope) {
             $scope.Yes = function () {
               $http({
-                url: 'index_new.php/account/logout',
+                url: '/account/logout',
                 method: "GET"
               }).success(function (response) {
                 $scope.$close(undefined);

@@ -6,13 +6,16 @@
 <meta http-equiv="Content-Type" content="text/html;" />
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-<meta property="useragent" content="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36" />
 <meta name="fragment" content="!">
 <meta name="description" content="">
 <meta name="language" content="english">
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<link rel="stylesheet" href="dist/css/vendor.css" />
-<link rel="stylesheet" href="dist/css/styles.css" />
+
+<link rel="stylesheet" href="dist/css/styles.min.css" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Bevan%7CPontano+Sans&subset=latin,latin" />
+<script src="http://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js" class="lazyload" charset="utf-8"></script>
+<link href="http://www.valleyforge.com/app/scripts/non-angular/css/themes/font/Bevan-PotanoSans.css?2.17" rel="stylesheet" class="lazyload" charset="utf-8">
 </head>
 <body ng-app="valleyforge_frontend_cms" id="scrollArea" ng-class="{ in : collapse }">
 <section>
@@ -63,9 +66,8 @@
   <!--<footer-bar class="footer-bar"  style="width: 100%; /*display: block;*/ position: relative;"></footer-bar>--> 
 </section>
 
-<script type="text/javascript" src="dist/scripts/vendor.js"></script>
-<script type="text/javascript" src="dist/scripts/vendor-ng.js"></script>
-<script type="text/javascript" src="dist\scripts\app.js"></script>
+<script type="text/javascript" src="dist/scripts/scripts.min.js"></script>
+
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -75,7 +77,7 @@
   //ga('send', 'pageview');
 </script>
 	
-<!--<script>
+<script>
   //event listener: DOM ready
   function addLoadEvent(func) {
     var oldonload = window.onload;
@@ -97,6 +99,6 @@
       languagePath: '/app/scripts/outdatedbrowser/lang/en.html'
     })
   });
-</script>-->
+</script>
 </body>
 </html>

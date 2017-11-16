@@ -40,6 +40,8 @@
   },
   "private": true,
   "dependencies": {
-    "angular-dialog-service": "^5.3.0"
+    "angular-dialog-service": "^5.3.0",
+    "gulp-bytediff": "^1.0.0",
+    "gulp-sourcemaps": "^2.6.1"
   }
 }

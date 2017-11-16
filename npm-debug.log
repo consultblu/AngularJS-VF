@@ -1,8 +1,8 @@
 0 info it worked if it ends with ok
 1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
 1 verbose cli   'C:\\Users\\Carlo\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js',
-1 verbose cli   'remove',
-1 verbose cli   'ui-bootstrap' ]
+1 verbose cli   'install',
+1 verbose cli   'gulp-sourcemaps' ]
 2 info using npm@3.3.12
 3 info using node@v9.1.0
 4 verbose stack Error: Cannot find module 'internal/util/types'
@@ -16,9 +16,9 @@
 4 verbose stack     at Object.Module._extensions..js (module.js:652:10)
 4 verbose stack     at Module.load (module.js:560:32)
 4 verbose stack     at tryModuleLoad (module.js:503:12)
-5 verbose cwd D:\My_Git_Repo\Valleyforge
+5 verbose cwd D:\My_Git_Repo\AngularJS-VF
 6 error Windows_NT 10.0.15063
-7 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Users\\Carlo\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "remove" "ui-bootstrap"
+7 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Users\\Carlo\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "install" "gulp-sourcemaps"
 8 error node v9.1.0
 9 error npm  v3.3.12
 10 error code MODULE_NOT_FOUND

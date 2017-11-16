@@ -125,7 +125,10 @@ app.config(["$urlMatcherFactoryProvider", "$stateProvider", "$urlRouterProvider"
     }).state("docs", {
       url: "/lp/docs",
       templateUrl: "app/docs/docs.html",
-      controller: "DocsCtrl"
+      controller: "DocsCtrl",
+      data: {
+        requireLogin: false
+      }
     }).state("examples", {
       url: "/lp/examples",
       templateUrl: "app/examples/examples.html",
@@ -235,7 +238,7 @@ app.config(["$urlMatcherFactoryProvider", "$stateProvider", "$urlRouterProvider"
       //url: "/professionality/",
       //templateUrl: "views/professionality",
       url: "/professionality/:hash",
-      templateUrl: (_isNotMobile) ? "app/views/careerPage/index.html" : "app/views/careerPage/index-mobile.html",
+      templateUrl: (_isNotMobile) ? "views/careerPage/index.html" : "views/careerPage/index-mobile.html",
       controller: "ProfessionalityCtrl",
       data: {
         requireLogin: false
@@ -243,7 +246,7 @@ app.config(["$urlMatcherFactoryProvider", "$stateProvider", "$urlRouterProvider"
     })
     .state("careers", {
       //url: "/professionality/",
-      templateUrl: "app/views/careerPage/index-no_parallax.html",
+      templateUrl: "views/careerPage/index-no_parallax.html",
       url: "/careers",
       //templateUrl: (_isNotMobile )? "app/views/careerPage/index.html" : "app/views/careerPage/index-mobile.html", 
       controller: "ProfessionalityCtrl",

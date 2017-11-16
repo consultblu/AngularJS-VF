@@ -1,6 +1,8 @@
 var gulp = require('gulp');
 var uglify = require('gulp-uglify');
 var ngAnnotate = require('gulp-ng-annotate')
+var bytediff = require('gulp-bytediff');
+var sourcemaps = require('gulp-sourcemaps');
 var livereload = require('gulp-livereload');
 var concat = require('gulp-concat');
 var sass = require('gulp-sass');
@@ -128,11 +130,42 @@ gulp.task('default', function () {
   gulp.start('styles');
 });
 
+
+
 //Production
 gulp.task('prod', function () {
-  console.log('Starting production task');
+  console.log('Starting production tasks');
+  gulp.start('prod-scripts');
+  gulp.start('prod-styles');	
+});
 
+//Production
+gulp.task('prod-scripts', function () {
+  console.log('Starting production scripts task');
+	gulp.src([
+		DIST_SCRIPTS + "/vendor.js",
+		DIST_SCRIPTS + "/vendor-ng.js",
+		DIST_SCRIPTS + "/app.js"
+					 ])
+	.pipe(concat('scripts.min.js'), {newLine: ';'})
+	.pipe(ngAnnotate({add: true}))
+	.pipe(bytediff.start())
+	.pipe(uglify({mangle: true}))
+	.pipe(bytediff.stop())
+	.pipe(sourcemaps.write('./'))
+	.pipe(gulp.dest(DIST_SCRIPTS));
+});
 
+//Production
+gulp.task('prod-styles', function () {
+  console.log('Starting production styles task');
+	gulp.src([
+		DIST_CSS + "/styles.css",
+		DIST_CSS + "/vendor.css"
+	])
+	.pipe(concat('styles.min.css'))
+	.pipe(uglify())
+	.pipe(gulp.dest(DIST_CSS));
 });
 
 // Watch

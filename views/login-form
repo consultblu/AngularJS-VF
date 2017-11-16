@@ -1,0 +1,40 @@
+<h1 class="heading ng-scope">Login to Your Account</h1>
+
+  <form id="vff_login_form" class="form-horizontal well ng-pristine ng-valid ng-scope" name="vff_login_form" method="post" action="http://www.valleyforge.com/views/login-form">
+<div class="hiddenFields">
+<input type="hidden" name="XID" value="a5102f87000c58332ae5a262f47816f050028f61">
+<input type="hidden" name="visitor_action" value="login">
+<input type="hidden" name="RET" value="/design-library">
+<input type="hidden" name="site_id" value="1">
+</div>
+
+
+  <div class="modal-body">
+    <div class="control-group">
+      <label class="control-label" for="username">Email Address</label>
+      <div class="controls">
+        <input type="text" class="input-xlarge" name="username" value="">
+      </div>
+    </div>
+    <div class="control-group">
+      <label class="control-label" for="username">Password</label>
+      <div class="controls">
+        <input type="password" class="input-xlarge" name="password" value="">
+	<div class="col-xs-1">
+          <input class="checkbox" type="checkbox" name="auto_login" value="1"></div>
+          <p class="col-xs-11">Remember Me</p>
+        </div>
+      </div>
+      <div class="controls">
+        <a style="display:initial;" class="orange" ng-click="resetPassword()">Reset Password</a>
+      </div>
+    </div>
+    <div class="modal-footer">   
+	<button type="button" class="wu-btn wu-btn--inline wu-btn--transparent-black" ng-click="submitVffLogin();">Login</button>
+	<button type="button" class="wu-btn wu-btn--inline wu-btn--transparent-black" ng-click="$dismiss()">Cancel</button>
+	<!-- <p class="help-inline"><a ng-click="$dismiss()" href="/views/reset-password">Reset Password</a></p> -->
+        <a style="display:none;" class="wu-btn wu-btn--inline wu-btn--transparent-black" ng-click="resetPassword()">Reset Password</a>
+      <p style="font-size:14px;">Don't have an account? <br> <a -ng-click="$dismiss()" href="/#/register/" class="wu-btn wu-btn--inline wu-btn--transparent-black">Click Here to Register</a></p>
+        <a style="display:none" ng-click="register()"> test</a>
+    </div>  
+  </form>

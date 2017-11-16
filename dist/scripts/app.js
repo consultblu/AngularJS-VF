@@ -1,6 +1,6 @@
-//var apiIp = '//' + window.location.hostname + '/';
+var apiIp = '//' + window.location.host + '/';
 //var apiIp = '//www.preprodvff.com/';
-var apiIp = '//www.valleyforge.com/';
+//var apiIp = '//www.valleyforge.com/';
 var apiUrl = apiIp + 'json';
 var sharedScopeDefinition;
 sharedScopeDefinition = {
@@ -15,23 +15,23 @@ var app = angular.module('valleyforge_frontend_cms',
     'ngAnimate'
     , 'ngCookies'
     , 'ngRoute' 
-    , 'ngSanitize' 
-    , 'btford.markdown' 
-    , 'ui.router' 
-    , 'youtube-embed' 
-    , 'ui.bootstrap' 
+    , 'ngSanitize'     
+		, 'ui.router' 	
+    , 'ui.bootstrap'
     , 'ui.bootstrap.dropdown' 
     , 'ui.bootstrap.typeahead' 
-    , 'ui.bootstrap.modal' 
-    , 'dialogs.main' 
+    , 'ui.bootstrap.modal'  
     , 'ui.select' 
-    //, 'ui.slider' 
-    , 'picardy.fontawesome'
+    //, 'ui.slider'
+		, 'dialogs.main'	
+		, 'ngMaterial'
+    , 'ngMdIcons'
+		, 'mdMarkdownIt'
+    , 'picardy.fontawesome'	
     //, 'ngTagsInput'
     , 'duScroll'
+	  , 'youtube-embed' 
     , 'angularUtils.directives.dirDisqus'
-    , 'ngMaterial'
-    , 'ngMdIcons'
     //, 'angular-advanced-searchbox'
   ]
 );
@@ -222,7 +222,10 @@ app.config(["$urlMatcherFactoryProvider", "$stateProvider", "$urlRouterProvider"
     }).state("docs", {
       url: "/lp/docs",
       templateUrl: "app/docs/docs.html",
-      controller: "DocsCtrl"
+      controller: "DocsCtrl",
+      data: {
+        requireLogin: false
+      }
     }).state("examples", {
       url: "/lp/examples",
       templateUrl: "app/examples/examples.html",
@@ -332,7 +335,7 @@ app.config(["$urlMatcherFactoryProvider", "$stateProvider", "$urlRouterProvider"
       //url: "/professionality/",
       //templateUrl: "views/professionality",
       url: "/professionality/:hash",
-      templateUrl: (_isNotMobile) ? "app/views/careerPage/index.html" : "app/views/careerPage/index-mobile.html",
+      templateUrl: (_isNotMobile) ? "views/careerPage/index.html" : "views/careerPage/index-mobile.html",
       controller: "ProfessionalityCtrl",
       data: {
         requireLogin: false
@@ -340,7 +343,7 @@ app.config(["$urlMatcherFactoryProvider", "$stateProvider", "$urlRouterProvider"
     })
     .state("careers", {
       //url: "/professionality/",
-      templateUrl: "app/views/careerPage/index-no_parallax.html",
+      templateUrl: "views/careerPage/index-no_parallax.html",
       url: "/careers",
       //templateUrl: (_isNotMobile )? "app/views/careerPage/index.html" : "app/views/careerPage/index-mobile.html", 
       controller: "ProfessionalityCtrl",
@@ -892,6 +895,217 @@ app.filter('split', function() {
 			});
 		};
 	}]);
+
+ app.controller("ExamplesCtrl", ["$scope", function($scope) {
+		$scope.examples = [{
+				"description": "Standard block",
+				"content_block": {
+						"content_block_type": "standard_block",
+						"color": "black",
+						"standard_block": {
+								"headline": "You Dream It",
+								"body": "90's mixtape retro kale chips. Messenger bag VHS pickled semiotics keytar, tofu Neutra hashtag American Apparel tousled kitsch. Beard heirloom kogi, gluten-free squid fixie sustainable health goth. Sartorial Portland Bushwick hashtag, distillery blog Shoreditch post-ironic PBR chia. Tote bag yr drinking vinegar cliche Odd Future pork belly. Williamsburg Brooklyn 8-bit migas. Chambray trust fund, American Apparel skateboard small batch cliche biodiesel fingerstache.",
+								"link": {
+										"label": "See More",
+										"url": "/"
+								}
+						}
+				}
+		}, {
+				"description": "Standard block -- centered with only a button",
+				"content_block": {
+						"content_block_type": "standard_block",
+						"alignment": "center",
+						"standard_block": {
+								"button": {
+										"label": "VIEW GUIDELINES",
+										"url": "/",
+										"style": "transparent-dark-gray"
+								}
+						 }
+				}
+		}, {
+				"description": "Standard block -- right-aligned",
+				"content_block": {
+						"content_block_type": "standard_block",
+						"alignment": "right",
+						"standard_block": {
+								"headline": "You Dream It",
+								"body": "90's mixtape retro kale chips. Messenger bag VHS pickled semiotics keytar, tofu Neutra hashtag American Apparel tousled kitsch. Beard heirloom kogi, gluten-free squid fixie sustainable health goth. Sartorial Portland Bushwick hashtag, distillery blog Shoreditch post-ironic PBR chia. Tote bag yr drinking vinegar cliche Odd Future pork belly. Williamsburg Brooklyn 8-bit migas. Chambray trust fund, American Apparel skateboard small batch cliche biodiesel fingerstache.",
+								"button": {
+										"label": "DONT CLICK ME",
+										"url": "/",
+										"style": "blue"
+								}
+						}
+				}
+		}, {
+				"description": "Two-column block with gray color",
+				"content_block": {
+						"content_block_type": "two_column",
+						"color": "gray",
+						"two_column": [{
+								"headline": "Messenger bags are cool",
+								"body": "90's mixtape retro kale chips. Messenger bag VHS pickled semiotics keytar, tofu Neutra hashtag American Apparel tousled kitsch. Beard heirloom kogi, gluten-free squid fixie sustainable health goth. Sartorial Portland Bushwick hashtag, distillery blog Shoreditch post-ironic PBR chia. Tote bag yr drinking vinegar cliche Odd Future pork belly. Williamsburg Brooklyn 8-bit migas. Chambray trust fund, American Apparel skateboard small batch cliche biodiesel fingerstache."
+						}, {
+								"headline": "Sweet mix tape",
+								"body": "90's mixtape retro kale chips. Messenger bag VHS pickled semiotics keytar, tofu Neutra hashtag American Apparel tousled kitsch. Beard heirloom kogi, gluten-free squid fixie sustainable health goth. Sartorial Portland Bushwick hashtag, distillery blog Shoreditch post-ironic PBR chia. Tote bag yr drinking vinegar cliche Odd Future pork belly. Williamsburg Brooklyn 8-bit migas. Chambray trust fund, American Apparel skateboard small batch cliche biodiesel fingerstache."
+						}]
+				}
+		}, {
+				"description": "Two-column block with links and buttons",
+				"content_block": {
+						"content_block_type": "two_column",
+						"two_column": [{
+								"headline": "Messenger bags are cool",
+								"body": "90's mixtape retro kale chips. Messenger bag VHS pickled semiotics keytar, tofu Neutra hashtag American Apparel tousled kitsch. Beard heirloom kogi, gluten-free squid fixie sustainable health goth. Sartorial Portland Bushwick hashtag, distillery blog Shoreditch post-ironic PBR chia. Tote bag yr drinking vinegar cliche Odd Future pork belly. Williamsburg Brooklyn 8-bit migas. Chambray trust fund, American Apparel skateboard small batch cliche biodiesel fingerstache.",
+								"link": {
+										"label": "See more",
+										"url": "/"
+								}
+						}, {
+								"headline": "Sweet mix tape",
+								"body": "90's mixtape retro kale chips. Messenger bag VHS pickled semiotics keytar, tofu Neutra hashtag American Apparel tousled kitsch. Beard heirloom kogi, gluten-free squid fixie sustainable health goth. Sartorial Portland Bushwick hashtag, distillery blog Shoreditch post-ironic PBR chia. Tote bag yr drinking vinegar cliche Odd Future pork belly. Williamsburg Brooklyn 8-bit migas. Chambray trust fund, American Apparel skateboard small batch cliche biodiesel fingerstache.",
+								"link": {
+										"label": "MIX IT UP",
+										"url": "/"
+								}
+						}, {
+								"headline": "Best tofu",
+								"body": "90's mixtape retro kale chips. Messenger bag VHS pickled semiotics keytar, tofu Neutra hashtag American Apparel tousled kitsch. Beard heirloom kogi, gluten-free squid fixie sustainable health goth. Sartorial Portland Bushwick hashtag, distillery blog Shoreditch post-ironic PBR chia. Tote bag yr drinking vinegar cliche Odd Future pork belly. Williamsburg Brooklyn 8-bit migas. Chambray trust fund, American Apparel skateboard small batch cliche biodiesel fingerstache.",
+								"button": {
+										"label": "I AM RED",
+										"url": "/",
+										"style": "red"
+								}
+						}, {
+								"headline": "Best tofu",
+								"body": "90's mixtape retro kale chips. Messenger bag VHS pickled semiotics keytar, tofu Neutra hashtag American Apparel tousled kitsch. Beard heirloom kogi, gluten-free squid fixie sustainable health goth. Sartorial Portland Bushwick hashtag, distillery blog Shoreditch post-ironic PBR chia. Tote bag yr drinking vinegar cliche Odd Future pork belly. Williamsburg Brooklyn 8-bit migas. Chambray trust fund, American Apparel skateboard small batch cliche biodiesel fingerstache.",
+								"button": {
+										"label": "Another button",
+										"url": "/",
+										"style": "transparent-blue"
+								}
+						}]
+				}
+		}, {
+				"description": "Three column layout",
+				"content_block": {
+						"content_block_type": "three_column",
+						"three_column": [{
+								"headline": "Messenger bags are cool",
+								"body": "90's mixtape retro kale chips. Messenger bag VHS pickled semiotics keytar, tofu Neutra hashtag American Apparel tousled kitsch. Beard heirloom kogi, gluten-free squid fixie sustainable health goth. Sartorial Portland Bushwick hashtag, distillery blog Shoreditch post-ironic PBR chia. Tote bag yr drinking vinegar cliche Odd Future pork belly. Williamsburg Brooklyn 8-bit migas. Chambray trust fund, American Apparel skateboard small batch cliche biodiesel fingerstache.",
+								"link": {
+										"label": "See more",
+										"url": "/"
+								}
+						}, {
+								"headline": "Sweet mix tape",
+								"body": "90's mixtape retro kale chips. Messenger bag VHS pickled semiotics keytar, tofu Neutra hashtag American Apparel tousled kitsch. Beard heirloom kogi, gluten-free squid fixie sustainable health goth. Sartorial Portland Bushwick hashtag, distillery blog Shoreditch post-ironic PBR chia. Tote bag yr drinking vinegar cliche Odd Future pork belly. Williamsburg Brooklyn 8-bit migas. Chambray trust fund, American Apparel skateboard small batch cliche biodiesel fingerstache.",
+								"link": {
+										"label": "MIX IT UP",
+										"url": "/"
+								}
+						}, {
+								"headline": "Best tofu",
+								"body": "90's mixtape retro kale chips. Messenger bag VHS pickled semiotics keytar, tofu Neutra hashtag American Apparel tousled kitsch. Beard heirloom kogi, gluten-free squid fixie sustainable health goth. Sartorial Portland Bushwick hashtag, distillery blog Shoreditch post-ironic PBR chia. Tote bag yr drinking vinegar cliche Odd Future pork belly. Williamsburg Brooklyn 8-bit migas. Chambray trust fund, American Apparel skateboard small batch cliche biodiesel fingerstache.",
+								"button": {
+										"label": "I AM RED",
+										"url": "/",
+										"style": "red"
+								}
+						}]
+				}
+		}, {
+				"description": "Three column layout with super headline",
+				"content_block": {
+						"alignment": "center",
+						"content_block_type": "three_column",
+						"three_column": [{
+								"super_headline": "1",
+								"headline": "Messenger bags are cool"
+						}, {
+								"super_headline": "2",
+								"headline": "Sweet mix tape"
+						}, {
+								"super_headline": "3",
+								"headline": "Best tofu"
+						}]
+				}
+		}, {
+				"description": "A horizontal rule",
+				"content_block": {
+						"content_block_type": "horizontal_rule"
+				}
+		}, {
+				"description": "A banner w/ link",
+				"content_block": {
+						"content_block_type": "banner",
+						"banner": {
+								"url": "/docs",
+								"images": {
+										"xs": "assets/images/mock_data/banners/inspire/banner_320x220_mobile.jpg",
+										"sm": "assets/images/mock_data/banners/inspire/banner_480x320_mobile.jpg",
+										"md": "assets/images/mock_data/banners/inspire/banner_768x600.jpg",
+										"lg": "assets/images/mock_data/banners/inspire/banner_992x496.jpg",
+										"xl": "assets/images/mock_data/banners/inspire/banner_1400x580.jpg"
+								}
+						}
+				}
+		}, {
+				"description": "A banner without a link",
+				"content_block": {
+						"content_block_type": "banner",
+						"banner": {
+								"images": {
+										"xs": "assets/images/mock_data/banners/inspire/banner_320x220_mobile.jpg",
+										"sm": "assets/images/mock_data/banners/inspire/banner_480x320_mobile.jpg",
+										"md": "assets/images/mock_data/banners/inspire/banner_768x600.jpg",
+										"lg": "assets/images/mock_data/banners/inspire/banner_992x496.jpg",
+										"xl": "assets/images/mock_data/banners/inspire/banner_1400x580.jpg"
+								}
+						}
+				}
+		}, {
+				"description": "A carousel",
+				"content_block": {
+						"content_block_type": "banner_carousel",
+						"banner_carousel": [{
+								"url": "/docs",
+								"images": {
+										"xs": "assets/images/banners/vff-home_banner-elephant_320x220_mobile.jpg",
+										"sm": "assets/images/banners/vff-home_banner-elephant_480x320_mobile.jpg",
+										"md": "assets/images/banners/vff-home_banner-elephant_768x600.jpg",
+										"lg": "assets/images/banners/vff-home_banner-elephant_992x496.jpg",
+										"xl": "assets/images/banners/vff-home_banner-elephant_1400x580.jpg"
+								}
+						}, {
+								"url": "/docs",
+								"images": {
+										"xs": "assets/images/banners/vff-home_banner-fresh_320x220_mobile.jpg",
+										"sm": "assets/images/banners/vff-home_banner-fresh_480x320_mobile.jpg",
+										"md": "assets/images/banners/vff-home_banner-fresh_768x600.jpg",
+										"lg": "assets/images/banners/vff-home_banner-fresh_992x496.jpg",
+										"xl": "assets/images/banners/vff-home_banner-fresh_1400x580.jpg"
+								}
+						}, {
+								"url": "/docs",
+								"images": {
+										"xs": "assets/images/banners/vff-home_banner-fresh_320x220_mobile.jpg",
+										"sm": "assets/images/banners/vff-home_banner-fresh_480x320_mobile.jpg",
+										"md": "assets/images/banners/vff-home_banner-fresh_768x600.jpg",
+										"lg": "assets/images/banners/vff-home_banner-fresh_992x496.jpg",
+										"xl": "assets/images/banners/vff-home_banner-fresh_1400x580.jpg"
+								}
+						}]
+				}
+		}];
+		$scope.getCodeBlock = function(obj) {
+				return angular.toJson(obj, true);
+		};
+		//return $scope.getCodeBlock
+}]);
+app.controller("DocsCtrl", ["$scope", function($scope) {}]);
 
 	app.controller("GotoCtrl", ["$scope", "$state", "$stateParams", function ($scope, $state, $stateParams) {
 		'use strict';
@@ -2946,72 +3160,73 @@ app.directive('mAppLoading', ["$animate", function ($animate) {
   }
 }]);
 app.directive('menuHeader', function () {
-  'use strict';
-  return {
-    templateUrl: 'components/menu_header/menu_header.html',
-    restrict: 'E',
-    replace: true,
-    controller: ["$scope", "dataFactory", "$mdSidenav", "$filter", function ($scope, dataFactory, $mdSidenav, $filter) {
-      $scope.collapse = false;
-      $scope.$watch('collapse', function () {});
-      var closeMenu = function () {
-        //console.log($scope.collapse);
-      };
-      $scope.opened = false;
-      $scope.isSidenavOpen = false;
-      $scope.menuTitle = "Menu";
+	'use strict';
+	return {
+		templateUrl: 'components/menu_header/menu_header.html',
+		restrict: 'E',
+		replace: true,
+		controller: ["$scope", "dataFactory", "$mdSidenav", "$filter", function ($scope, dataFactory, $mdSidenav, $filter) {
+			$scope.collapse = false;
+			$scope.$watch('collapse', function () {});
+			var closeMenu = function () {
+				//console.log($scope.collapse);
+			};
+			$scope.opened = false;
+			$scope.isSidenavOpen = false;
+			$scope.menuTitle = "Menu";
 
-      function buildToggler(componentId) {
-        return function () {
-          $mdSidenav(componentId).toggle();
-          //console.log('sidenav is ' + ($scope.isSidenavOpen ? 'open' : 'closed'));
-          angular.element(document).find('#nav-icon3').toggleClass('open');
-          $scope.mainMenu ? true : false;
-          $scope.submenu ? true : false;
-          //angular.element('.mainmenu').toggleClass('ng-hide');
-          $scope.nav('main');
-        };
-      }
-      $scope.toggleLeft = buildToggler('left');
-      $scope.toggleRight = buildToggler('right');
-      dataFactory.getData('/menu').success(function (data) {
-        //console.log('headerMenu', data.header);
-        $scope.headerMenu = data.header;
-        $scope.splash = data.splash;
-      });
-      //$scope.error(function(error) {});
-      $scope.mainMenu = true;
-      $scope.hassubmenu = false;
-      $scope.donotshow = true;
-      $scope.close = function () {
-        $mdSidenav('right').close()
-          .then(function () {
-            $log.debug("close RIGHT is done");
-          });
-      };
-      $scope.nav = function (obj, $event) {
-        $scope.donotshow = false;
-        //console.log(obj);
-        if (obj === 'main') {
-          //console.log('Parent Found', obj.parent);
-          $scope.menuTitle = "Menu";
-          $scope.mainMenu = true;
-          $scope.showsubmenu = false;
-          $scope.donotshow = true;
-        }
-        if (obj.hassubmenu === true) {
-          //console.log('HasSubmenu is True', obj.parent);
-          //console.log(obj.submenu);
-          $scope.menuTitle = obj.label;
-          $scope.mainMenu = false;
-          $scope.showsubmenu = true;
-          $scope.submenu = obj.submenu;
-        }
-      };
-      $scope.apply;
-      return $scope;
+			function buildToggler(componentId) {
+				return function () {
+					$mdSidenav(componentId).toggle();
+					//console.log('sidenav is ' + ($scope.isSidenavOpen ? 'open' : 'closed'));
+					angular.element(document).find('#nav-icon3').toggleClass('open');
+					$scope.mainMenu ? true : false;
+					$scope.submenu ? true : false;
+					//angular.element('.mainmenu').toggleClass('ng-hide');
+					$scope.nav('main');
+				};
+			}
+			$scope.toggleLeft = buildToggler('left');
+			$scope.toggleRight = buildToggler('right');
+			dataFactory.getData('/menu').success(function (data) {
+				//console.log('headerMenu', data);
+				//console.log('headerMenu', data.header);
+				$scope.headerMenu = data.header;
+				$scope.splash = data.splash;
+			});
+			//$scope.error(function(error) {});
+			$scope.mainMenu = true;
+			$scope.hassubmenu = false;
+			$scope.donotshow = true;
+			$scope.close = function () {
+				$mdSidenav('right').close()
+					.then(function () {
+						$log.debug("close RIGHT is done");
+					});
+			};
+			$scope.nav = function (obj, $event) {
+				$scope.donotshow = false;
+				//console.log(obj);
+				if (obj === 'main') {
+					//console.log('Parent Found', obj.parent);
+					$scope.menuTitle = "Menu";
+					$scope.mainMenu = true;
+					$scope.showsubmenu = false;
+					$scope.donotshow = true;
+				}
+				if (obj.hassubmenu === true) {
+					//console.log('HasSubmenu is True', obj.parent);
+					//console.log(obj.submenu);
+					$scope.menuTitle = obj.label;
+					$scope.mainMenu = false;
+					$scope.showsubmenu = true;
+					$scope.submenu = obj.submenu;
+				}
+			};
+			$scope.apply;
+			return $scope;
     }]
-  };
+	};
 });
 app.directive('menuUtility', function () {
   'use strict';
@@ -3038,7 +3253,7 @@ app.directive('menuUtility', function () {
       };
       $rootScope.logIn = function () {
         //      console.log("Login function executed!!");
-        $scope.dlg = dialogs.create('index_new.php/views/login-form/', 'LoginModalCtrl', {}, {
+        $scope.dlg = dialogs.create('/views/login-form/', 'LoginModalCtrl', {}, {
           key: true,
           back: 'static'
         });
@@ -3051,11 +3266,11 @@ app.directive('menuUtility', function () {
       };
       $scope.logOut = function ($scope) {
         var instance = $modal.open({
-          templateUrl: 'index_new.php/views/logout-form',
+          templateUrl: '/views/logout-form',
           controller: ["$scope", function ($scope) {
             $scope.Yes = function () {
               $http({
-                url: 'index_new.php/account/logout',
+                url: '/account/logout',
                 method: "GET"
               }).success(function (response) {
                 $scope.$close(undefined);
@@ -3969,6 +4184,8 @@ app.directive('socialXing', ['socialLinker', function (linker) {
     })
   };
 }]);
+
+
 app.directive('wuCmsContentBlockThreeColumn', function () {
   'use strict';
   return {
@@ -3997,7 +4214,7 @@ app.run(["$templateCache", function($templateCache) {
  'use strict';
  $templateCache.put("app/demo/demo.html", "<div class=\"container\"><div class=\"row\"><div class=\"col-xs-12 col-sm-12 col-md-12 col-lg-12\" style=\"display:none;\"><h2 class=\"content\">Demo</h2><p>The content below the horizontal line is dynamically generated. Jump to the very bottom of page to edit the content on the page.</p></div></div></div><div class=\"divider-bar\" /><wu-cms-content-block content-block=\"contentBlock\" ng-repeat=\"contentBlock in contentBlocks\"></wu-cms-content-block><div class=\"divider-bar\" /><div class=\"container\"><div class=\"row\"><div class=\"col-xs-12 col-sm-12 col-md-12 col-lg-12\"><h1 class=\"content\">Try it out</h1><p class=\"content\">Edit the JSON below to change the content which is displayed above.</p><div class=\"clearfix\"><span class=\"pull-right label label-success\" ng-show=\"valid\">Valid</span><span class=\"pull-right label label-danger\" ng-show=\"!valid\">Invalid </span></div><br /><textarea class=\"json-area\" ng-model=\"contentBlockString\" /></div></div></div>");
  $templateCache.put("app/examples/examples.html", "<div class=\"container\"><div class=\"row\"><div class=\"col-xs-12 col-sm-12\"><h1 class=\"content\">Examples</h1></div></div></div><div ng-repeat=\"example in examples\"><div class=\"container\"><div class=\"row\"><div class=\"col-xs-12 col-sm-12\"><h3 class=\"content\"> Example {{ $index + 1 }}: {{ example.description }}</h3><pre ng-bind=getCodeBlock(example.content_block)></pre></div></div></div><wu-cms-content-block content-block=\"example.content_block\"></wu-cms-content-block></div>");
- $templateCache.put("app/docs/docs.html", "<div class=\"container\"><div class=\"row\"><div class=\"col-xs-12 col-sm-12 content\"><h1 class=\"content\">Documentation</h1><p>See the <a href=\"#/examples\">Examples</a> page for examples.</p><div btf-markdown ng-include=\"\'docs/DOCUMENTATION.md\'\"></div></div></div></div>");
+ $templateCache.put("app/docs/docs.html", "<div class=\"container\"><div class=\"row\"><div class=\"col-xs-12 col-sm-12 content\"><h1 class=\"content\">Documentation</h1><p>See the <a href=\"#/examples\">Examples</a> page for examples.</p><div markdown-it ng-include=\"\'/dist/assets/docs/DOCUMENTATION.md\'\"></div></div></div></div>");
  $templateCache.put('app/landing_page/landing_page.html', '<wu-cms-content-block content-block="contentBlock" ng-repeat="contentBlock in contentBlocks"></wu-cms-content-block>');
  $templateCache.put('components/cms/content_blocks/content_block/content_block.html', '<div class="wu-cms-content-block" ng-class="getContentBlockClass()"><div ng-switch on="contentBlock.content_block_type"><wu-cms-content-block-title_bar content-block="contentBlock" ng-switch-when="title_bar"></wu-cms-content-block-title_bar><wu-cms-content-block-banner content-block="contentBlock" ng-switch-when="banner"></wu-cms-content-block-banner><wu-cms-content-block-banner-carousel ng-switch-when="banner_carousel"></wu-cms-content-block-banner-carousel><wu-cms-content-block-banner2 content-block="contentBlock.banner2" content-block="contentBlock" ng-switch-when="banner2"></wu-cms-content-block-banner2><wu-cms-content-block-banner-carousel2 content-block="contentBlock.banner_carousel2" ng-switch-when="banner_carousel2"></wu-cms-content-block-banner-carousel2><wu-cms-content-block-fluid-grid ng-switch-when="fluid_grid"></wu-cms-content-block-fluid-grid><wu-cms-content-block-home-grid ng-switch-when="home_grid"></wu-cms-content-block-home-grid><wu-cms-content-block-call-to-action ng-switch-when="call_to_action"></wu-cms-content-block-call-to-action><wu-cms-content-block-horizontal-rule ng-switch-when="horizontal_rule"></wu-cms-content-block-horizontal-rule><wu-cms-content-block-standard-block-video ng-switch-when="standard_block_video"></wu-cms-content-block-standard-block-video><wu-cms-content-block-standard-block ng-switch-when="standard_block"></wu-cms-content-block-standard-block><wu-cms-content-block-products content-block="contentBlock" ng-switch-when="products"></wu-cms-content-block-products><wu-cms-content-block-two-column ng-switch-when="two_column"></wu-cms-content-block-two-column><wu-cms-content-block-three-column ng-switch-when="three_column"></wu-cms-content-block-three-column><wu-cms-content-block-four-column ng-switch-when="four_column"></wu-cms-content-block-four-column><wu-cms-content-block-five-column ng-switch-when="five_column"></wu-cms-content-block-five-column><wu-cms-content-block-tabs content-block="contentBlock" ng-switch-when="tabs"></wu-cms-content-block-tabs><wu-cms-content-block-timeline source="contentBlock.timeline" ng-switch-when="timeline"></wu-cms-content-block-timeline><wu-cms-content-block-blog source="contentBlock" ng-switch-when="blog"></wu-cms-content-block-blog><wu-cms-content-block-media-ads ng-switch-when="advertising" content-block="contentBlock.advertising"></wu-cms-content-block-media-ads><wu-cms-content-block-media-awards ng-switch-when="awards" content-block="contentBlock.awards"></wu-cms-content-block-media-awards><wu-cms-content-block-media-online_video ng-switch-when="videos" content-block="contentBlock.videos"></wu-cms-content-block-media-online_video><wu-cms-content-block-fabric-collection ng-switch-when="fabric_collection" content-block="contentBlock.fabric_collection"></wu-cms-content-block-fabric-collection><wu-cms-content-block-bedding-spec-book ng-switch-when="bedding_spec_book" content-block="contentBlock.bedding_spec_book"></wu-cms-content-block-bedding-spec-book><wu-cms-content-block-gradient-spec-book ng-switch-when="gradient_spec_book" content-block="contentBlock.gradient_spec_book"></wu-cms-content-block-gradient-spec-book><div ng-switch-default ng-bind="contentBlock.content_block_type"></div></div></div>');
  $templateCache.put('components/cms/splash/splash.html',
@@ -4204,7 +4421,7 @@ $templateCache.put('components/menu_utility/menu_utility.html',
  $templateCache.put("components/cms/content_blocks/four_column/four_column.html", "<div class=\"container\"><div class=\"row\"><div class=\"\"><div class=\"wu-cms-content-block__standard_block\"><h1 ng-bind=\"contentBlock.four_column.headline\" ng-if=\"contentBlock.four_column.headline\"></h1><h5 ng-bind=\"contentBlock.four_column.sub_headline\" ng-if=\"contentBlock.four_column.sub_headline\"></h5><youtube-video ng-if=\"contentBlock.four_column.youtube\" video-id=\"{{contentBlock.four_column.youtube}}\"></youtube-video><img class=\"-image\" ng-if=\"contentBlock.four_column.image\" ng-src=\"{{contentBlock.four_column.image}}\" /><p ng-bind-html=\"contentBlock.four_column.body\" ng-if=\"contentBlock.four_column.body\"></p></div></div><div class=\"row\"><div class=\"col-sm-6 col-md-6 wu-cms-content-block__four-column\" ng-repeat=\"column in contentBlock.four_column.columns\"><h1 class=\"wu-cms-content-block__four-column__headline\" ng-bind=\"column.headline\" ng-if=\"column.headline\"></h1><h5 class=\"wu-cms-content-block__four-column__sub_headline\" ng-bind=\"column.sub_headline\" ng-if=\"column.sub_headline\"></h5><youtube-video ng-if=\"column.youtube\" video-id=\"column.youtube\" class=\"wu-cms-content-block__four-column__youtube\"></youtube-video><img class=\"image\" ng-if=\"column.image\" ng-src=\"{{column.image}}\" /><p class=\"wu-cms-content-block__four-column__body\" ng-bind-html=\"column.body\" ng-if=\"column.body\"></p><a ng-if=\"column.button\" class=\"wu-btn wu-btn--inline\" ng-class=\"getButtonClass(column.button.style)\" ng-href=\"#{{ column.button.url }}\" ng-bind=\"column.button.label\"> {{ column.button.label }}</a><p ng-if=\"column.link.url\"><a ng-href=\"#{{ column.link.url }}\" ng-bind=\"column.link.label\"></a></p></div></div></div>");
  $templateCache.put("components/cms/content_blocks/five_column/five_column.html", "<div class=\"container\"><div class=\"row\"><div class=\"\"><div class=\"wu-cms-content-block__standard_block\"><h1 ng-bind=\"contentBlock.five_column.headline\" ng-if=\"contentBlock.five_column.headline\"></h1><h5 ng-bind=\"contentBlock.five_column.sub_headline\" ng-if=\"contentBlock.five_column.sub_headline\"></h5><youtube-video ng-if=\"contentBlock.five_column.youtube\" video-id=\"{{contentBlock.five_column.youtube}}\"></youtube-video><img class=\"-image\" ng-if=\"contentBlock.five_column.image\" ng-src=\"{{contentBlock.five_column.image}}\" /><p ng-bind-html=\"contentBlock.five_column.body\" ng-if=\"contentBlock.five_column.body\"></p></div></div><div class=\"row\"><div class=\"col-xs-2_5 wu-cms-content-block__five-column\" ng-repeat=\"column in contentBlock.five_column.columns\"><h1 class=\"wu-cms-content-block__five-column__headline\" ng-bind=\"column.headline\" ng-if=\"column.headline\"></h1><h5 class=\"wu-cms-content-block__five-column__sub_headline\" ng-bind=\"column.sub_headline\" ng-if=\"column.sub_headline\"></h5><youtube-video ng-if=\"column.youtube\" video-id=\"column.youtube\" class=\"wu-cms-content-block__five-column__youtube\"></youtube-video><img class=\"image\" ng-if=\"column.image\" ng-src=\"{{column.image}}\" /><p class=\"wu-cms-content-block__five-column__body\" ng-bind-html=\"column.body\" ng-if=\"column.body\"></p><a ng-if=\"column.button\" class=\"wu-btn wu-btn--inline\" ng-class=\"getButtonClass(column.button.style)\" ng-href=\"#{{ column.button.url }}\" ng-bind=\"column.button.label\">{{ column.button.label }}</a><p ng-if=\"column.link.url\"><a ng-href=\"#{{ column.link.url }}\" ng-bind=\"column.link.label\"></a></p></div></div></div>");
  $templateCache.put("components/cms/content_blocks/tabs/tabs.html", "<div class=\"container\"><div class=\"row \"><tabs><pane ng-repeat=\"tab in contentBlock.tabs\" title=\"{{ tab.label}}\"><div ng-repeat=\"contentBlock in tab.tabContentBlocks\" tab-content-block=\"contentBlock\" class=\"wu-cms-content-block\" ng-class=\"getTabContentBlockClass(contentBlock)\"><div ng-switch on=\"contentBlock.content_block_type\" class=\"col-xs-12 col-sm-12 col-md-12 col-lg-12\"><wu-cms-content-block-banner tab-content-block=\"tabContentBlock\" ng-switch-when=\"banner\"></wu-cms-content-block-banner><wu-cms-content-block-banner-carousel ng-switch-when=\"banner_carousel\"></wu-cms-content-block-banner-carousel><wu-cms-content-block-fluid-grid ng-switch-when=\"fluid_grid\"></wu-cms-content-block-fluid-grid><wu-cms-content-block-call-to-action ng-switch-when=\"call_to_action\"></wu-cms-content-block-call-to-action><wu-cms-content-block-horizontal-rule ng-switch-when=\"horizontal_rule\"></wu-cms-content-block-horizontal-rule><wu-cms-content-block-standard-block-video ng-switch-when=\"standard_block_video\"></wu-cms-content-block-standard-block-video><wu-cms-content-block-standard-block tab-content-block=\"contentBlock\" ng-switch-when=\"standard_block\"></wu-cms-content-block-standard-block><wu-cms-content-block-two-column ng-switch-when=\"two_column\"></wu-cms-content-block-two-column><wu-cms-content-block-three-column ng-switch-when=\"three_column\"></wu-cms-content-block-three-column><wu-cms-content-block-four-column ng-switch-when=\"four_column\"></wu-cms-content-block-four-column><wu-cms-content-block-five-column ng-switch-when=\"five_column\"></wu-cms-content-block-five-column><wu-cms-content-block-products content-block=\"contentBlock\" ng-switch-when=\"products\"></wu-cms-content-block-products></div></div></pane></tabs></div></div>");
-$templateCache.put("components/cms/content_blocks/timeline/timeline.html", "<div id=\"timeline-embed\"></div><script type=\"text/javascript\"> var timeline_config = \{width: '100%', height: '80%', source: 'index_new.php/json/timeline', embed_id: 'timeline-embed', start_at_end: false, start_at_slide: '0', start_zoom_adjust: '3', hash_bookmark: false, font: 'Bevan-PotanoSans', debug: true, lang: 'en', maptype: 'watercolor', css: 'app/styles/timeline.css', js: 'app/scripts/non-angular/timeline-min.js'\} </script><script type=\"text/javascript\" src=\"app/scripts/non-angular/storyjs-embed.js\"></script>");
+$templateCache.put("components/cms/content_blocks/timeline/timeline.html", "<div id=\"timeline-embed\"></div><script type=\"text/javascript\"> var timeline_config = \{width: '100%', height: '80%', source: 'json/timeline', embed_id: 'timeline-embed', start_at_end: false, start_at_slide: '0', start_zoom_adjust: '3', hash_bookmark: false, font: 'Bevan-PotanoSans', debug: true, lang: 'en', maptype: 'watercolor', css: 'src/css/non-ng/timeline.css', js: 'src/scripts/vendor/non-ng/timeline-min.js'\} </script> <script type=\"text/javascript\" src=\"src/scripts/vendor/non-ng/storyjs-embed.js\"></script><link rel=\"stylesheet\" href=\"src/css/non-ng/Bevan-PotanoSans.css\" />");
  //$templateCache.put("components/cms/content_blocks/media/advertising.html", "<div class=\"container\"><section><div class=\"main\"><ul id=\"og-grid\" class=\"og-grid ads\"><li sample xscroll-to=\"anchor{{$index}} \" class=\"col-xs-12 col-sm-6 col-md-4 col-lg-3 not-og-expanded\" id=\"anchor{{$index}}\" ng-repeat=\"item in contentBlock.advertising\" data-url=\"/#{{item.image}}\" data-largesrc=\"{{item.image}}\" data-button=\"Request Sample\" ng-click=\"-showPreview()\"><a id=\"{{ item.name }}\"><img ng-src=\"{{item.thumbnail}}\" alt=\"{{ item.name }}\" /></a></li></ul></div></section></div>");
  //$templateCache.put("components/cms/content_blocks/media/awards.html", "<div class=\"container\"><section><div class=\"main\"><ul id=\"og-grid\" class=\"og-grid awards\"><li sample xscroll-to=\"anchor{{$index}} \" class=\"not-og-expanded\" id=\"anchor{{$index}}\" ng-repeat=\"item in contentBlock.awards\" data-url=\"/#{{item.name}}\" data-largesrc=\"{{item.image}}\" data-button=\"Request Sample\" ng-click=\"-showPreview()\"><a id=\"{{ item.name }}\"><img ng-src=\"{{item.thumbnail}}\" alt=\"{{ item.name }}\"/></a></li></ul></div></section></div>");
  $templateCache.put('components/cms/content_blocks/media/advertising.html', '<div class="container">' + 

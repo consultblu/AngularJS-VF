@@ -11421,7 +11421,7 @@ md-card-title:hover {
 #home-footer #footer-social a { display: inline-block; }
 #home-footer md-nav-item-, #home-footer #footer-social a { margin: 0 10px; }
 #home-footer md-nav-item:last-of-type { margin: 0; }
-#home-footer #copyright { margin-left: 20px; }
+#home-footer #copyright { margin-left: 16px; }
 #footer-social md-icon {
 	color: #111;
 	height: 30px;
